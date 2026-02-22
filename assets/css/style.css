@@ -1,0 +1,162 @@
+/* ========== BRAND COLOURS ========== */
+:root {
+    --teal: #2d8c8f;
+    --orange: #f39c12;
+    --sage: #e6ece6;
+    --beige: #f4ede4;
+    --dark: #333;
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 600;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f39c12;
+}
+
+.navbar-brand img {
+  height: 150px !important;
+  width: auto;
+  border-style: none;
+}
+
+/* Typography */
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--dark);
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+
+.section-title {
+    font-size: 2rem;
+}
+
+/* HERO */
+.hero-section {
+    background: #f8f9f8;
+}
+
+.hero-image-wrapper {
+    max-height: 350px;     /* controls height */
+    overflow: hidden;      /* hides excess image */
+    border-radius: 12px;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;     /* crops nicely instead of stretching */
+}
+
+/* PILL BUTTONS */
+.btn-primary-pill {
+    background: var(--orange);
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 25px;
+    font-weight: 500;
+}
+
+.btn-primary-pill:hover {
+    background: #d98200;
+    color: #fff;
+}
+
+.btn-outline-pill {
+    border: 2px solid var(--orange);
+    color: var(--orange);
+    border-radius: 50px;
+    padding: 8px 25px;
+}
+
+.btn-outline-pill:hover {
+    background: var(--orange);
+    color: #fff;
+}
+
+.btn-white-pill {
+    background: #fff;
+    color: var(--teal);
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+/* WHAT WE DO */
+.what-we-do {
+    background: var(--sage);
+}
+
+.feature-card {
+    border: none;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-icon {
+    font-size: 1.8rem;
+    color: var(--teal);
+}
+
+.read-more {
+    font-size: 0.9rem;
+    color: var(--teal);
+}
+
+/* PROJECTS */
+.project-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.dot-red { background: #e74c3c; }
+.dot-orange { background: var(--orange); }
+.dot-teal { background: var(--teal); }
+
+/* PUBLICATIONS */
+.info-card {
+    border-radius: 12px;
+    padding: 40px;
+    text-align: left;
+}
+
+.info-blue {
+    background: #e6f2f3;
+}
+
+.info-beige {
+    background: var(--beige);
+}
+
+/* CTA */
+.cta-section {
+    background: var(--teal);
+    color: #fff;
+}
