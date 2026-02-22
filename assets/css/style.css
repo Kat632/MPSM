@@ -1,10 +1,16 @@
 /* ========== BRAND COLOURS ========== */
 :root {
-    --teal: #2d8c8f;
-    --orange: #f39c12;
-    --sage: #e6ece6;
-    --beige: #f4ede4;
+    --teal: #007681;      /* Pantone 7468 C */
+    --magenta: #C6007E;   /* Pantone 215 C */
+    --light-orange: #F99D1C;    /* Pantone 137 C */
+    --pinky-red: #E4002B;       /* Pantone 192 C */
+    --orange: #FF6A13;   /* Pantone 1585 C */
+    --purple: #7A3E8E;   /* Pantone 512 C */
+    --red: #DA291C;      /* Pantone 485 C */
+    --green: #007A53;    /* Pantone 3415 C */
     --dark: #333;
+    --sage: #e6ece6; /* Accent colour */
+    --beige: #f4ede4; /* Accent colour */
 }
 
 .navbar {
@@ -20,7 +26,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #f39c12;
+  color: #f99d1c;
 }
 
 .navbar-brand img {
@@ -71,7 +77,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .btn-primary-pill:hover {
-    background: #d98200;
+    background: #e85d0e;
     color: #fff;
 }
 
@@ -94,7 +100,7 @@ h1, h2, h3, h4, h5 {
     padding: 10px 30px;
 }
 
-/* WHAT WE DO */
+/* HOW WE DO IT */
 .what-we-do {
     background: var(--sage);
 }
@@ -123,22 +129,26 @@ h1, h2, h3, h4, h5 {
 /* PROJECTS */
 .project-card {
     background: #fff;
+    border: 1px solid var(--sage);
     border-radius: 12px;
     padding: 25px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.05);
 }
 
 .dot {
-    height: 10px;
-    width: 10px;
+    height: 25px;
+    width: 25px;
     display: inline-block;
     border-radius: 50%;
     margin-bottom: 10px;
 }
 
-.dot-red { background: #e74c3c; }
-.dot-orange { background: var(--orange); }
+.dot-pinky-red { background: var(--pinky-red); }
+.dot-light-orange { background: var(--light-orange); }
 .dot-teal { background: var(--teal); }
+.dot-green { background: var(--green); }
+.dot-purple { background: var(--purple); }
+.dot-red { background: var(--red); }
 
 /* PUBLICATIONS */
 .info-card {
