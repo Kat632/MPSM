@@ -12,6 +12,7 @@
     --sage: #e6ece6; /* Accent colour */
     --beige: #f4ede4; /* Accent colour */
     --faded-wales-red: #f7d4d1; /* Accent colour */
+    --faded-england-red: #f9ccd4; /* Accent colour */
 }
 
 .navbar {
@@ -375,27 +376,48 @@ h1, h2, h3, h4, h5 {
       padding: 8px 22px;
     }
 
-    /* ========== GALLERY.HTML ========== */
-    /* ===== HERO ===== */
+    /* ========== GALLERIES ========== */
+    /* ===== HEROS ===== */
+
+    /* Wales Gallery */
     .wales-gallery-hero {
       background: var(--faded-wales-red);
       padding: 80px 0;
       text-align: center;
     }
 
-    .wales-gallery-hero h1 {
+    .wales-gallery-hero h1 span {
+      color: var(--red);
+    }
+
+    /* England Gallery */
+    .england-gallery-hero {
+      background: var(--faded-england-red);
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .england-gallery-hero h1 {
       font-weight: 700;
     }
 
-    .wales-gallery-hero h1 span {
-      color: #DA291C;
+    .england-gallery-hero h1 span {
+      color: var(--pinky-red);
     }
 
-    .country-hero p {
+    /* General Gallery Styles */
+    .wales-gallery-hero h1
+    .england-gallery-hero h1 {
+      font-weight: 700;
+    }
+
+    .wales-gallery-hero p
+    .england-gallery-hero p {
       max-width: 600px;
       margin: 20px auto 0;
       color: #555;
     }
+
     .gallery-grid {
         margin-top: 30px;
     }
