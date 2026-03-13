@@ -11,6 +11,7 @@
     --dark: #333;
     --sage: #e6ece6; /* Accent colour */
     --beige: #f4ede4; /* Accent colour */
+    --faded-wales-red: #f7d4d1; /* Accent colour */
 }
 
 .navbar {
@@ -374,8 +375,51 @@ h1, h2, h3, h4, h5 {
       padding: 8px 22px;
     }
 
-/* FOOTER CTA SECTION */
-.cta-section {
-    background: var(--teal);
-    color: #fff;
-}
+    /* ========== GALLERY.HTML ========== */
+    /* ===== HERO ===== */
+    .wales-gallery-hero {
+      background: var(--faded-wales-red);
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .wales-gallery-hero h1 {
+      font-weight: 700;
+    }
+
+    .wales-gallery-hero h1 span {
+      color: #DA291C;
+    }
+
+    .country-hero p {
+      max-width: 600px;
+      margin: 20px auto 0;
+      color: #555;
+    }
+    .gallery-grid {
+        margin-top: 30px;
+    }
+
+    .gallery-item {
+        margin-bottom: 30px;
+    }
+
+    .gallery-item img {
+        border-radius: 6px;
+        transition: transform .3s ease;
+    }
+
+    .gallery-item img:hover {
+        transform: scale(1.02);
+    }
+
+    .gallery-caption {
+        font-size: 0.95rem;
+        color: #666;
+    }
+
+    /* FOOTER CTA SECTION */
+    .cta-section {
+        background: var(--teal);
+        color: #fff;
+    }
