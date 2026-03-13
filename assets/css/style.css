@@ -13,6 +13,10 @@
     --beige: #f4ede4; /* Accent colour */
     --faded-wales-red: #f7d4d1; /* Accent colour */
     --faded-england-red: #f9ccd4; /* Accent colour */
+    --faded-norway-teal: #d1e7e7; /* Accent colour */
+    --faded-germany-orange: #fce5d1; /* Accent colour */
+    --faded-scotland-purple: #e8d9e7; /* Accent colour */
+    --faded-roi-green: #d1e7e0; /* Accent colour */
 }
 
 .navbar {
@@ -397,22 +401,70 @@ h1, h2, h3, h4, h5 {
       text-align: center;
     }
 
-    .england-gallery-hero h1 {
-      font-weight: 700;
-    }
-
     .england-gallery-hero h1 span {
       color: var(--pinky-red);
     }
 
+    /* Scotland Gallery */
+    .scotland-gallery-hero {
+      background: var(--faded-scotland-purple);
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .scotland-gallery-hero h1 span {
+      color: var(--purple);
+    }
+
+    /* Republic of Ireland Gallery */
+    .roi-gallery-hero {
+      background: var(--faded-roi-green);
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .roi-gallery-hero h1 span {
+      color: var(--green);
+    }
+
+    /* Norway Gallery */
+    .norway-gallery-hero {
+      background: var(--faded-norway-teal);
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .norway-gallery-hero h1 span {
+      color: var(--teal);
+    }
+
+    /* Germany Gallery */
+    .germany-gallery-hero {
+      background: var(--faded-germany-orange);
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    .germany-gallery-hero h1 span {
+      color: var(--light-orange);
+    }
+
     /* General Gallery Styles */
     .wales-gallery-hero h1
-    .england-gallery-hero h1 {
+    .england-gallery-hero h1
+    .scotland-gallery-hero h1
+    .roi-gallery-hero h1
+    .norway-gallery-hero h1
+    .germany-gallery-hero h1 {
       font-weight: 700;
     }
 
     .wales-gallery-hero p
-    .england-gallery-hero p {
+    .england-gallery-hero p
+    .scotland-gallery-hero p
+    .roi-gallery-hero p
+    .norway-gallery-hero p
+    .germany-gallery-hero p {
       max-width: 600px;
       margin: 20px auto 0;
       color: #555;
