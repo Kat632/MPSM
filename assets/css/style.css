@@ -490,6 +490,102 @@ h1, h2, h3, h4, h5 {
     .gallery-caption {
         font-size: 0.95rem;
         color: #666;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    .gallery-quote {
+    width: 100%;
+    padding: 70px 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: var(--quote-background, var(--beige));
+    position: relative;
+    }
+
+    .gallery-quote.england {
+        background: var(--faded-england-red);
+    }
+
+    .gallery-quote.beige {
+        background: var(--beige);
+    }
+
+    .gallery-quote.teal {
+        background: var(--faded-norway-teal);
+    }
+
+    .gallery-quote.green {
+        background: var(--faded-roi-green);
+    }
+
+    .gallery-quote.purple {
+        background: var(--faded-scotland-purple);
+    }
+
+    .gallery-quote.germany {
+        background: var(--faded-germany-orange);
+    }
+
+    .gallery-quote.wales {
+        background: var(--faded-wales-red);
+    }
+
+    .gallery-quote blockquote {
+        position: relative;
+        max-width: 850px;
+        margin: 0 auto 20px;
+        padding: 0 45px;
+        font-family: "Dosis", sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.35;
+    }
+
+    .gallery-quote blockquote::before {
+        content: "“";
+        position: absolute;
+        left: 0;
+        top: -25px;
+        font-family: Georgia, serif;
+        font-size: 5rem;
+        font-weight: normal;
+        line-height: 1;
+        color: var(--teal);
+    }
+
+    .gallery-quote .quote-attribution {
+        margin: 0;
+        font-family: "Inter", sans-serif;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #666;
+    }
+
+    .gallery-quote .quote-attribution::before {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 1px;
+        margin: 0 auto 12px;
+        background: #999;
+    }
+
+    @media (max-width: 767px) {
+        .gallery-quote {
+            padding: 50px 20px;
+        }
+
+        .gallery-quote blockquote {
+            padding: 0 30px;
+            font-size: 1.6rem;
+        }
+
+        .gallery-quote blockquote::before {
+            font-size: 4rem;
+            top: -20px;
+        }
     }
 
     /* FOOTER CTA SECTION */
