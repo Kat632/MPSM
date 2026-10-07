@@ -593,3 +593,281 @@ h1, h2, h3, h4, h5 {
         background: var(--teal);
         color: #fff;
     }
+
+    /* ========== CASE STUDIES ========== */
+
+/* ===== ENGLAND CASE STUDIES HERO ===== */
+
+.england-case-studies-hero {
+    background: var(--faded-england-red);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.england-case-studies-hero h1 {
+    font-weight: 700;
+}
+
+.england-case-studies-hero h1 span {
+    color: var(--pinky-red);
+}
+
+.england-case-studies-hero p {
+    max-width: 700px;
+    margin: 20px auto 0;
+    color: #555;
+}
+
+
+/* ===== CASE STUDY CARDS ===== */
+
+.case-study-card {
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid var(--sage);
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.case-study-card-image,
+.case-study-placeholder {
+    width: 100%;
+    height: 260px;
+}
+
+.case-study-card-image {
+    display: block;
+    object-fit: cover;
+}
+
+.case-study-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    background: var(--faded-england-red);
+    color: var(--pinky-red);
+}
+
+.case-study-placeholder span {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.case-study-card-body {
+    padding: 30px;
+}
+
+.case-study-card-tag {
+    margin-bottom: 8px;
+    color: var(--pinky-red);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.case-study-card h3 {
+    margin-bottom: 15px;
+}
+
+.case-study-card p {
+    line-height: 1.7;
+}
+
+
+/* ===== CASE STUDY QUOTES ===== */
+
+.case-study-quote {
+    margin: 25px 0;
+    padding: 30px;
+    background: var(--faded-england-red);
+    text-align: center;
+}
+
+.case-study-quote p {
+    max-width: 800px;
+    margin: 0 auto 15px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.case-study-quote cite {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #666;
+}
+
+.case-study-quote cite::before {
+    content: "";
+    display: block;
+    width: 40px;
+    height: 1px;
+    margin: 0 auto 12px;
+    background: #999;
+}
+
+
+/* ===== CASE STUDY THEMES ===== */
+
+.case-study-themes {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.case-study-theme {
+    height: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    background: var(--sage);
+}
+
+.case-study-theme i {
+    margin-bottom: 15px;
+    font-size: 1.7rem;
+    color: var(--pinky-red);
+}
+
+.case-study-theme h3 {
+    margin-bottom: 10px;
+}
+
+.case-study-theme p {
+    margin-bottom: 0;
+    line-height: 1.7;
+}
+
+
+/* ===== CASE STUDY PDF SECTION ===== */
+
+.case-study-pdf-section {
+    padding: 70px 0;
+    background: var(--sage);
+}
+
+.case-study-pdf-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 25px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.case-study-pdf-link i {
+    margin-right: 10px;
+    color: var(--pinky-red);
+}
+
+
+/* ===== CASE STUDY MODAL ===== */
+
+.case-study-modal .modal-header {
+    padding: 25px 30px;
+    border-bottom: 1px solid var(--faded-england-red);
+}
+
+.case-study-modal .modal-body {
+    padding: 35px;
+}
+
+.case-study-modal h2,
+.case-study-modal h3,
+.case-study-modal h4 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+}
+
+.case-study-modal h3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: var(--pinky-red);
+}
+
+.case-study-modal h3:first-child {
+    margin-top: 0;
+}
+
+.case-study-modal h4 {
+    margin-bottom: 10px;
+}
+
+.case-study-modal p,
+.case-study-modal li {
+    line-height: 1.75;
+}
+
+.case-study-modal blockquote {
+    margin: 30px 0;
+    padding: 30px;
+    background: var(--faded-england-red);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.case-study-modal blockquote cite {
+    display: block;
+    margin-top: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #666;
+}
+
+
+/* ===== CASE STUDY MOBILE ===== */
+
+@media (max-width: 767px) {
+
+    .england-case-studies-hero {
+        padding: 60px 0;
+    }
+
+    .case-study-card-image,
+    .case-study-placeholder {
+        height: 220px;
+    }
+
+    .case-study-card-body {
+        padding: 25px;
+    }
+
+    .case-study-quote {
+        padding: 25px 20px;
+    }
+
+    .case-study-quote p {
+        font-size: 1.3rem;
+    }
+
+    .case-study-modal .modal-body {
+        padding: 25px;
+    }
+
+    .case-study-modal blockquote {
+        padding: 25px 20px;
+        font-size: 1.3rem;
+    }
+
+    .case-study-pdf-link {
+        display: block;
+    }
+
+    .case-study-pdf-link .btn-pill {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+}
