@@ -1,0 +1,178 @@
+{% extends "base.html" %}
+
+{% block title %}My Primary School is at the Museum (MPSM) | Museum-based Primary Education{% endblock %}
+
+{% block content %}
+
+<!-- HERO -->
+<section class="norway-gallery-hero">
+<div class="container">
+    <h1 class="display-4 font-weight-bold">Norway, <br><span>Bergen</span></h1>
+    <p class="lead mt-4 mb-4 col-md-8 mx-auto">
+    In partnership with the Cultural History Museum, the botanical gardens & Bryggen Wharf.
+    </p>
+</div>
+</section>
+
+
+<!-- COUNTRY GRID -->
+<section class="gallery">
+  <div class="container gallery-page py-5">
+
+    <div class="row gallery-grid">
+
+        <!-- Image 1 -->
+        <div class="col-sm-6 col-md-4 gallery-item">
+            <a href="#" class="gallery-link"
+                data-img="{{ url_for('static', filename='assets/images/bergen/IMG_3115.JPG') }}"
+                data-caption="Bergen Museums, 2018">
+                <img src="{{ url_for('static', filename='assets/images/bergen/IMG_3115.JPG') }}" class="img-fluid">
+            </a>
+            <p class="gallery-caption">Bergen Museums, 2018</p>
+        </div>
+
+        <!-- Image -->
+        <div class="col-sm-6 col-md-4 gallery-item">
+            <a href="#" class="gallery-link"
+               data-img="{{ url_for('static', filename='assets/images/bergen/IMG_3109.JPG') }}"
+               data-caption="Bergen Museums, 2018">
+                <img src="{{ url_for('static', filename='assets/images/bergen/IMG_3109.JPG') }}" class="img-fluid">
+            </a>
+            <p class="gallery-caption">Bergen Museums, 2018</p>
+        </div>
+
+        <!-- Image 3 -->
+        <div class="col-sm-6 col-md-4 gallery-item">
+            <a href="#" class="gallery-link"
+               data-img="{{ url_for('static', filename='assets/images/bergen/IMG_3101.JPG') }}"
+               data-caption="Bergen Museums, 2018">
+                <img src="{{ url_for('static', filename='assets/images/bergen/IMG_3101.JPG') }}" class="img-fluid">
+            </a>
+            <p class="gallery-caption">Bergen Museums, 2018</p>
+        </div>
+
+        <!-- Quote -->
+        <div class="col-12 gallery-item gallery-quote teal">
+            <blockquote>
+                “Both the children and the accompanying teaching adults felt
+                that they developed a strong ownership of the museum…
+                some of the excitement was to discover what a museum is;
+                what a museum can accommodate; experience its exhibits…
+                feel the smell, wonder… and discover the stories…”
+            </blockquote>
+            <p class="quote-attribution">Role Play Facilitator / Academic, Bergen</p>
+        </div>
+
+        <!-- Image 4 -->
+        <div class="col-sm-6 col-md-4 gallery-item">
+            <a href="#" class="gallery-link"
+               data-img="{{ url_for('static', filename='assets/images/bergen/4.0IMG_3120.JPG') }}"
+               data-caption="Bergen Museums, 2018">
+                <img src="{{ url_for('static', filename='assets/images/bergen/4.0IMG_3120.JPG') }}" class="img-fluid">
+            </a>
+            <p class="gallery-caption">Bergen Museums, 2018</p>
+        </div>
+
+        <!-- Image 5 -->
+        <div class="col-sm-6 col-md-4 gallery-item">
+            <a href="#" class="gallery-link"
+               data-img="{{ url_for('static', filename='assets/images/bergen/3.0IMG_3121.JPG') }}"
+               data-caption="Bergen Museums, 2018">
+                <img src="{{ url_for('static', filename='assets/images/bergen/3.0IMG_3121.JPG') }}" class="img-fluid">
+            </a>
+            <p class="gallery-caption">Bergen Museums, 2018</p>
+        </div>
+
+        <!-- Image 6 -->
+        <div class="col-sm-6 col-md-4 gallery-item">
+            <a href="#" class="gallery-link"
+               data-img="{{ url_for('static', filename='assets/images/bergen/2.0fullsizeoutput_e82.jpeg') }}"
+               data-caption="Bergen Museums, 2018">
+                <img src="{{ url_for('static', filename='assets/images/bergen/2.0fullsizeoutput_e82.jpeg') }}" class="img-fluid">
+            </a>
+            <p class="gallery-caption">Bergen Museums, 2018</p>
+        </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Modal -->
+<section>
+  <div class="modal fade" id="galleryModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-body text-center">
+
+        <img id="modalImage" class="img-fluid mb-3">
+
+        <p id="modalCaption" class="gallery-caption"></p>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+</section>
+
+        <!-- CTA BOX -->
+        <section>
+        <div class="container">
+            <div class="cta-box">
+            <h3>Want to bring MPSM to your museum or school?</h3>
+            <p>
+                We provide the framework, research and support needed to launch
+                successful museum-school residencies anywhere in the world.
+            </p>
+            <a href="#" class="btn btn-info mr-2">Contact us</a>
+            <a href="#" class="btn btn-secondary">View toolkit</a>
+            </div>
+        </div>
+        </section>
+
+        <!-- Footer -->
+        <section class="cta-section text-center py-5">
+            <div class="container">
+                <h3 class="mb-4">
+                    Join us in shaping the future of primary education,
+                    one museum residency at a time.
+                </h3>
+
+                <a href="#" class="btn-pill btn-white-solid">
+                    Contact us
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+<!-- JavaScript -->
+<script>
+  $(document).ready(function(){
+
+    var $grid = $('.gallery-grid');
+
+    $grid.imagesLoaded(function(){
+        $grid.masonry({
+            itemSelector: '.gallery-item',
+            percentPosition: true
+        });
+    });
+
+    $('.gallery-link').click(function(e){
+        e.preventDefault();
+
+        var img = $(this).data('img');
+        var caption = $(this).data('caption');
+
+        $('#modalImage').attr('src', img);
+        $('#modalCaption').text(caption);
+
+        $('#galleryModal').modal('show');
+    });
+
+});
+</script>
+
+{% endblock %}

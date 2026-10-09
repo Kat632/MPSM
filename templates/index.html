@@ -1,0 +1,212 @@
+{% extends "base.html" %}
+
+{% block title %}My Primary School is at the Museum (MPSM) | Museum-based Primary Education{% endblock %}
+
+{% block content %}
+
+        <!-- HERO -->
+        <section class="hero-section py-5">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <h1 class="hero-title mb-4">
+                            Transforming primary education through immersive,
+                            museum experiences that inspire curiosity and foster lifelong learning.
+                        </h1>
+
+                        <p class="lead mb-4">
+                            Empowering educators and museums to build impactful
+                            partnerships for a brighter future.
+                        </p>
+
+                        <a href="{{ url_for('projects') }}" class="btn-pill btn-orange-solid mr-3">
+                            Explore the projects
+                        </a>
+
+                        <a href="{{ url_for('publications') }}" class="btn-pill btn-orange-outline">
+                            View publications
+                        </a>
+                    </div>
+
+                    <div class="col-lg-6 text-center">
+                        <div class="hero-image-wrapper">
+                            <img src="{{ url_for('static', filename='assets/images/swansea/WNS_230616_Waterfront_Schools.JPG') }}" class="img-fluid hero-image" alt="A group of children being shown museum objects by a museum educator">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- WHAT WE DO -->
+        <section class="what-we-do py-5 text-center">
+            <div class="container">
+                <h2 class="section-title mb-3">How We Do It</h2>
+                <p class="section-intro mb-5">
+                    MPSM is dedicated to bridging the gap between formal education and the rich resources of museums, alongside other cultural and natural settings.
+                    Our work is built upon four key pillars, driving innovation and impact in primary education.
+                </p>
+
+                <div class="row">
+
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card feature-card h-100">
+                            <div class="card-body">
+                                <i class="fas fa-handshake mb-3 feature-icon"></i>
+                                <h5>Partnerships</h5>
+                                <p>Facilitating strong, sustainable partnerships between primary schools and museums to create enriching, fully inclusive educational experiences.</p>
+                                <a href="#" class="read-more">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card feature-card h-100">
+                            <div class="card-body">
+                                <i class="fas fa-search mb-3 feature-icon"></i>
+                                <h5>Research</h5>
+                                <p>Conducting research to understand the impact of museum-based learning on primary school children, informing best practices and policy.</p>
+                                <a href="#" class="read-more">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card feature-card h-100">
+                            <div class="card-body">
+                                <i class="fas fa-globe mb-3 feature-icon"></i>
+                                <h5>International Collaboration</h5>
+                                <p>Working with global partners to share insights, develop new methodologies, and expand the reach of museum-school initiatives worldwide.</p>
+                                <a href="#" class="read-more">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card feature-card h-100">
+                            <div class="card-body">
+                                <i class="fas fa-lightbulb mb-3 feature-icon"></i>
+                                <h5>Guidance & Practice</h5>
+                                <p>Providing practical resources, toolkits, and professional development to educators and museum professionals.</p>
+                                <a href="#" class="read-more">Read more</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section class="projects py-5 text-center">
+            <div class="container">
+                <h2 class="section-title mb-3">Our Projects – International</h2>
+                <p class="section-intro mb-5">
+                    Supporting diverse museum-based learning initiatives across nations.
+                </p>
+
+                <div class="row">
+
+                    <div class="col-md-4 mb-4">
+                        <div class="project-card">
+                            <span class="dot dot-pinky-red"></span>
+                            <h5>England</h5>
+                            <p>Developing curriculum-linked programs across socio-economic divides.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="project-card">
+                            <span class="dot dot-light-orange"></span>
+                            <h5>Germany</h5>
+                            <p>Piloting specialist innovative projects for the SEND community.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="project-card">
+                            <span class="dot dot-teal"></span>
+                            <h5>Norway</h5>
+                            <p>Supporting early years initiatives, fostering young children’s sense of citizenship and community belonging.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="project-card">
+                            <span class="dot dot-green"></span>
+                            <h5>Republic of Ireland</h5>
+                            <p>Developing curriculum-linked programs with national museums.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="project-card">
+                            <span class="dot dot-purple"></span>
+                            <h5>Scotland</h5>
+                            <p>Inspiring primary children to creatively design, bridging onward education and potential careers.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="project-card">
+                            <span class="dot dot-red"></span>
+                            <h5>Wales</h5>
+                            <p>Fostering curiosity in the power of language, nature and science in place-based learning.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <a href="{{ url_for('projects') }}"  class="btn-pill btn-orange-solid mt-3">View all projects</a>
+            </div>
+        </section>
+
+
+        <!-- PUBLICATIONS -->
+        <section class="publications py-5">
+            <div class="container text-center">
+                <h2 class="section-title mb-3">Publications & Guidance</h2>
+
+                <div class="row mt-5">
+
+                    <div class="col-md-6 mb-4">
+                        <div class="info-card info-beige">
+                            <i class="fas fa-book mb-3 feature-icon"></i>
+                            <h5>Our Latest Publications</h5>
+                            <p>Explore research and thought leadership in museum-based education.</p>
+                            <a href="{{ url_for('publications') }}" class="read-more">Browse Publications</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="info-card info-beige">
+                            <i class="fas fa-school mb-3 feature-icon"></i>
+                            <h5>Guidance for Practitioners</h5>
+                            <p>Practical toolkits and resources for developing partnerships and educational experiences.</p>
+                            <a href="{{ url_for('publications') }}" class="read-more">Access Guidance</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CTA -->
+        <section class="cta-section text-center py-5">
+            <div class="container">
+                <h3 class="mb-4">
+                    Join us in shaping the future of primary education,
+                    one museum residency at a time.
+                </h3>
+
+                <a href="#" class="btn-pill btn-white-solid">
+                    Contact us
+                </a>
+            </div>
+        </section>
+
+{% endblock %}

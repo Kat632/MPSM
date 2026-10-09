@@ -1,0 +1,1586 @@
+{% extends "base.html" %}
+
+{% block title %}My Primary School is at the Museum (MPSM) | Museum-based Primary Education{% endblock %}
+
+{% block content %}
+
+    <!-- HERO -->
+    <section class="england-case-studies-hero">
+      <div class="container text-center">
+
+        <h1 class="display-4 font-weight-bold">
+          England, <br>
+          <span>Case Studies</span>
+        </h1>
+
+        <p class="lead mt-4 mb-4 case-study-intro">
+          What happens when schools and museums work together to rethink
+          where, how and what children learn?
+        </p>
+
+        <p class="case-study-intro">
+          These stories explore what happened when primary school children
+          moved beyond the classroom and into museums, galleries, parks and
+          other cultural spaces.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- CASE STUDIES -->
+    <section class="container mt-5 pb-5">
+
+      <div class="text-center mb-5">
+
+        <h2 class="font-weight-bold">
+          Stories from England
+        </h2>
+
+        <p class="lead mt-3 case-study-intro">
+          Every museum-school partnership is different. These case studies
+          show what happens when learning is shaped around place, collections,
+          people and real experiences.
+        </p>
+
+      </div>
+
+
+      <div class="row">
+
+        <!-- CLASS IN RESIDENCE -->
+        <div class="col-md-6 mb-4">
+
+          <article class="case-study-card">
+
+            <img src="{{ url_for('static', filename='assets/images/IMG_0118.JPG') }}" class="case-study-card-image"
+                alt="Children learning together in a museum environment">
+
+            <div class="case-study-card-body">
+
+              <div class="case-study-card-tag">
+                Lingfield Primary School
+              </div>
+
+              <h3 class="font-weight-bold">
+                Class in Residence
+              </h3>
+
+              <p>
+                What happens when a Year 1 class moves their learning
+                from school to a museum and park for an entire week?
+              </p>
+
+              <p>
+                Thirty-one children from Lingfield Primary spent a week
+                learning at Captain Cook Birthplace Museum and Stewart
+                Park in Marton, Middlesbrough, using dinosaurs as the
+                starting point for learning across the curriculum.
+              </p>
+
+              <a href="#" class="btn-pill btn-pinky-red-outline" data-toggle="modal"
+                data-target="#classInResidenceModal">
+                Read case study →
+              </a>
+
+            </div>
+
+          </article>
+
+        </div>
+
+
+        <!-- TATE LIVERPOOL -->
+        <div class="col-md-6 mb-4">
+          <div class="case-study-card">
+            <img src="{{ url_for('static', filename='assets/images/liverpool/MPS mon2-22.jpg') }}" class="case-study-card-image"
+                alt="Children learning together in a museum environment">
+
+            <div class="case-study-card-body">
+              <div class="case-study-card-tag">Liverpool</div>
+
+              <h3>My Primary School is at Tate Liverpool</h3>
+
+              <p>
+                A community nursery based a group of pre-school children at
+                Tate Liverpool for two weeks, building on an established
+                relationship between the gallery and nursery.
+              </p>
+
+              <p>
+                The children quickly became comfortable in the gallery,
+                exploring materials, developing their interests through play
+                and becoming more confident and independent.
+              </p>
+
+              <button type="button" class="btn btn-pinky-red-outline btn-pill" data-toggle="modal"
+                data-target="#tateLiverpoolModal">
+                Read case study <i class="fas fa-arrow-right ml-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-6 mb-4">
+          <div class="case-study-card">
+            <img src="{{ url_for('static', filename='assets/images/arbeia/8.0 IMG_0196.JPG') }}" class="case-study-card-image"
+              alt="Children learning together in a museum environment">
+
+            <div class="case-study-card-body">
+              <div class="case-study-card-tag">South Shields</div>
+
+              <h3>My Primary School is at Arbeia Roman Fort</h3>
+
+              <p>
+                A Year 5 class from Hadrian Primary School spent three months
+                learning at the Roman fort opposite their school, discovering
+                how the site could support subjects far beyond history.
+              </p>
+
+              <p>
+                By the end of the project, the children were confident enough
+                to act as tour guides for parents and visitors.
+              </p>
+
+              <button type="button" class="btn btn-pinky-red-outline btn-pill" data-toggle="modal"
+                data-target="#arbeiaModal">
+                Read case study <i class="fas fa-arrow-right ml-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="case-study-card">
+            <img src="{{ url_for('static', filename='assets/images/cambridge/IMG_0158.JPG') }}" class="case-study-card-image"
+              alt="Children learning together in a museum environment">
+
+            <div class="case-study-card-body">
+              <div class="case-study-card-tag">Cambridge</div>
+
+              <h3>Nursery in Residence</h3>
+
+              <p>
+                Nine young children spent five days learning through the
+                collections and spaces of the University of Cambridge Museums,
+                with nursery practitioners and museum educators exploring what
+                happens when adults step back and really listen to children.
+              </p>
+
+              <p>
+                The project became a shared process of observation, reflection,
+                planning and action, with some unexpected lessons for both
+                children and educators.
+              </p>
+
+              <button type="button" class="btn btn-pinky-red-outline btn-pill" data-toggle="modal"
+                data-target="#cambridgeModal">
+                Read case study <i class="fas fa-arrow-right ml-2"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- MORE CASE STUDIES -->
+        <div class="col-md-6 mb-4">
+
+          <article class="case-study-card">
+
+            <div class="case-study-placeholder">
+              <span>
+                More England case studies coming here
+              </span>
+            </div>
+
+            <div class="case-study-card-body">
+
+              <div class="case-study-card-tag">
+                More to explore
+              </div>
+
+              <h3 class="font-weight-bold">
+                The England story continues
+              </h3>
+
+              <p>
+                We will use this space for further examples from
+                museums, galleries and other cultural organisations
+                working with primary schools.
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- WHAT DIFFERENCE DOES IT MAKE? -->
+    <section class="container case-study-themes">
+
+      <div class="text-center mb-5">
+
+        <h2 class="font-weight-bold">
+          What difference does it make?
+        </h2>
+
+        <p class="lead mt-3 case-study-intro">
+          The Class in Residence project showed that moving learning into a
+          cultural setting can affect far more than what children know.
+        </p>
+
+      </div>
+
+
+      <div class="row">
+
+        <div class="col-md-6 col-lg-3 mb-4">
+
+          <div class="case-study-theme">
+
+            <i class="fa-solid fa-comments"></i>
+
+            <h3>
+              Confidence
+            </h3>
+
+            <p>
+              Children became more confident talking about what they had
+              learned and sharing their experiences with others.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-6 col-lg-3 mb-4">
+
+          <div class="case-study-theme">
+
+            <i class="fa-solid fa-lightbulb"></i>
+
+            <h3>
+              Curiosity
+            </h3>
+
+            <p>
+              Real objects, places and experiences gave children reasons
+              to ask questions and investigate the world around them.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-6 col-lg-3 mb-4">
+
+          <div class="case-study-theme">
+
+            <i class="fa-solid fa-pencil"></i>
+
+            <h3>
+              Better learning
+            </h3>
+
+            <p>
+              Speaking, writing, mathematics, science and creative work
+              could be connected through one shared experience.
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="col-md-6 col-lg-3 mb-4">
+
+          <div class="case-study-theme">
+
+            <i class="fa-solid fa-people-group"></i>
+
+            <h3>
+              Connection
+            </h3>
+
+            <p>
+              Teachers, museum staff, parents and children became part
+              of the same learning community.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- FEATURE QUOTE -->
+    <section class="container pb-5">
+
+      <div class="row align-items-center">
+
+        <div class="col-lg-5 mb-4 mb-lg-0">
+
+          <img src="{{ url_for('static', filename='assets/images/IMG_0118.JPG') }}" class="img-fluid rounded" alt="Children learning outside the classroom">
+
+        </div>
+
+        <div class="col-lg-7">
+
+          <blockquote class="case-study-quote">
+
+            <p class="h4">
+              “When we came back on Friday both my teaching assistant
+              and I said ‘Gosh, we’re exhausted. Wasn’t it so worthwhile?
+              It was really really worthwhile.’”
+            </p>
+
+            <cite>
+              Lingfield Primary teacher
+            </cite>
+
+          </blockquote>
+
+          <p class="mt-4">
+            The project was intensive for the adults as well as the children.
+            But that intensity became part of the value of the experience,
+            giving the teacher and museum education officer an opportunity
+            to plan, teach and reflect together.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- FULL CASE STUDIES -->
+    <section class="case-study-pdf-section">
+
+      <div class="container">
+
+        <div class="text-center mb-5">
+
+          <h2 class="font-weight-bold">
+            Read the full case studies
+          </h2>
+
+          <p class="lead mt-3 case-study-intro">
+            The full reports contain the detail behind the stories,
+            including planning, activities, outcomes and reflections
+            from the people involved.
+          </p>
+
+        </div>
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-9">
+
+            <!-- LINGFIELD -->
+            <div class="case-study-pdf-link">
+
+              <div>
+                <i class="fa-solid fa-file-pdf"></i>
+
+                <strong>
+                  Lingfield Class in Residence case study 2019
+                </strong>
+              </div>
+
+              <a href="{{ url_for('static', filename='assets/case-studies/Lingfield Class in Residence case study 2019.pdf') }}"
+                class="btn-pill btn-pinky-red-outline" target="_blank" rel="noopener">
+                Open PDF →
+              </a>
+
+            </div>
+
+            <!-- TATE LIVERPOOL -->
+            <div class="case-study-pdf-link">
+
+              <div>
+                <i class="fa-solid fa-file-pdf"></i>
+
+                <strong>
+                  Tate Liverpool case study
+                </strong>
+              </div>
+
+              <a href="{{ url_for('static', filename='assets/case-studies/Tate Liverpool Case Study 2016 .pdf') }}"
+                class="btn-pill btn-pinky-red-outline" target="_blank" rel="noopener">
+                Open PDF →
+              </a>
+
+            </div>
+
+            <!-- FITZWILLIAM MUSEUM -->
+            <div class="case-study-pdf-link">
+
+              <div>
+                <i class="fa-solid fa-file-pdf"></i>
+
+                <strong>
+                  Cambridge University Botanic Garden case study
+                </strong>
+              </div>
+
+              <a href="{{ url_for('static', filename='assets/case-studies/CambridgeUniversityBotanicGarden Nursery In Residence presentation 2018_19.pdf') }}"
+                class="btn-pill btn-pinky-red-outline" target="_blank" rel="noopener">
+                Open PDF →
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="container py-5">
+
+      <div class="cta-box text-center">
+
+        <h2>
+          Could your school become a museum-school?
+        </h2>
+
+        <p class="lead">
+          Discover how the My Primary School is at the Museum model
+          could work in your school or cultural organisation.
+        </p>
+
+        <a href="contact.html" class="btn-pill btn-pinky-red-outline">
+          Get in touch →
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- CLASS IN RESIDENCE MODAL -->
+  <div class="modal fade case-study-modal" id="classInResidenceModal" tabindex="-1" role="dialog"
+    aria-labelledby="classInResidenceModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-xl modal-dialog-scrollable" role="document">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+
+          <div>
+
+            <div class="case-study-card-tag">
+              Lingfield Primary School · Marton, Middlesbrough
+            </div>
+
+            <h2 class="modal-title" id="classInResidenceModalLabel">
+              Class in Residence
+            </h2>
+
+          </div>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+
+            <span aria-hidden="true">
+              &times;
+            </span>
+
+          </button>
+
+        </div>
+
+
+        <div class="modal-body">
+
+          <!-- THE IDEA -->
+          <h3>
+            The idea
+          </h3>
+
+          <p>
+            Could some of the benefits of an extended museum-school
+            relationship be achieved in a single week?
+          </p>
+
+          <p>
+            Inspired by the My Primary School is at the Museum model,
+            a Year 1 class from Lingfield Primary relocated its learning
+            from school to Captain Cook Birthplace Museum and Stewart Park
+            for five days.
+          </p>
+
+          <p>
+            The aim was not simply to take lessons out of the classroom.
+            The teacher and museum education officer planned the curriculum
+            together, using the museum, its collections and the park as
+            the learning environment.
+          </p>
+
+
+          <!-- AT A GLANCE -->
+          <h3>
+            At a glance
+          </h3>
+
+          <div class="row">
+
+            <div class="col-md-6 col-lg-3 mb-3">
+              <strong>School</strong><br>
+              Lingfield Primary
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-3">
+              <strong>Year group</strong><br>
+              Year 1
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-3">
+              <strong>Children</strong><br>
+              31
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-3">
+              <strong>Theme</strong><br>
+              Dinosaur Planet
+            </div>
+
+          </div>
+
+
+          <!-- WHAT THEY DID -->
+          <h3>
+            What they did
+          </h3>
+
+          <p>
+            The dinosaur theme became a way into a surprisingly broad
+            range of learning.
+          </p>
+
+          <ul>
+            <li>Handled fossils and bones.</li>
+            <li>Dressed up and role-played palaeontologists.</li>
+            <li>Took part in a dinosaur hunt in Stewart Park.</li>
+            <li>Worked with an artist to design and make a felt dinosaur.</li>
+            <li>Used Google Expeditions to explore dinosaurs.</li>
+            <li>Created dinosaur fact files.</li>
+            <li>Explored the museum galleries and learned about Captain Cook.</li>
+            <li>Learned about continents and geography.</li>
+            <li>Discovered the work of local Victorian geologist Lewis Hunton.</li>
+            <li>Practised phonics and mathematical positional language through games and conversation.</li>
+          </ul>
+
+          <p>
+            Maths, English, History, Geography, Art and Design, Computing
+            and PHSE were all woven through the week.
+          </p>
+
+
+          <!-- WHAT CHANGED -->
+          <h3>
+            What changed?
+          </h3>
+
+          <p>
+            The impact went well beyond the knowledge the children gained
+            about dinosaurs.
+          </p>
+
+          <div class="row">
+
+            <div class="col-md-6 mb-4">
+
+              <h4>
+                Knowledge and skills
+              </h4>
+
+              <p>
+                Children developed knowledge around dinosaurs,
+                palaeontology, geology, archaeology and geography,
+                alongside skills in coding, historical enquiry,
+                creative and critical thinking, independent learning,
+                speaking and listening.
+              </p>
+
+            </div>
+
+
+            <div class="col-md-6 mb-4">
+
+              <h4>
+                Language and writing
+              </h4>
+
+              <p>
+                Vocabulary grew throughout the week, including
+                mathematical positional language. The children also
+                showed improvements in spelling, handwriting and
+                motivation to write.
+              </p>
+
+            </div>
+
+
+            <div class="col-md-6 mb-4">
+
+              <h4>
+                Confidence and behaviour
+              </h4>
+
+              <p>
+                Children were highly motivated to attend and learn.
+                The teacher reported no distracting behavioural
+                incidents during the week.
+              </p>
+
+            </div>
+
+
+            <div class="col-md-6 mb-4">
+
+              <h4>
+                Ownership
+              </h4>
+
+              <p>
+                The museum and park became places the children felt
+                belonged to them. They developed a genuine sense of
+                ownership over the spaces where they were learning.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <!-- CHILD QUOTE -->
+          <blockquote>
+
+            “The dinosaur is between the rock and the flower and he is
+            very big and likes eating grass.”
+
+            <cite>
+              A pupil's written work, observed during the project
+            </cite>
+
+          </blockquote>
+
+
+          <!-- PARENTS -->
+          <h3>
+            They couldn't stop talking about it
+          </h3>
+
+          <p>
+            The experience was noticeable at home as well as at school.
+            Parents reported that children were more confident talking
+            about their days and were unusually enthusiastic about going
+            to school.
+          </p>
+
+          <blockquote>
+
+            “He has enjoyed the experience. He seems more confident to
+            discuss what he did during the day and who he did it with.”
+
+            <cite>
+              Parent
+            </cite>
+
+          </blockquote>
+
+          <blockquote>
+
+            “He was very excited during the week, and enthusiastic to
+            learn. He was worried he'd miss the school bus on a morning
+            so actually got dressed no problem.”
+
+            <cite>
+              Parent
+            </cite>
+
+          </blockquote>
+
+
+          <!-- FAMILY CONNECTION -->
+          <h3>
+            The impact went beyond the museum
+          </h3>
+
+          <p>
+            Almost all of the children's families attended the final
+            celebration afternoon. The children presented their work and
+            showed their parents what they had learned.
+          </p>
+
+          <p>
+            The experience was so successful that the school decided to
+            introduce similar sharing afternoons for other year groups.
+            Within a month, two other year groups had held their own
+            sharing afternoons.
+          </p>
+
+
+          <!-- TEACHER -->
+          <h3>
+            Learning worked both ways
+          </h3>
+
+          <p>
+            The project was valuable professional development for the
+            teacher too. Planning and delivering lessons in a completely
+            different environment encouraged reflection on classroom
+            practice and opened up new possibilities for using hands-on
+            resources.
+          </p>
+
+          <blockquote>
+
+            “As a class teacher, it was great professional development
+            to work with the education officer from the museum to plan,
+            deliver and evaluate lessons.”
+
+            <cite>
+              Lingfield Primary teacher
+            </cite>
+
+          </blockquote>
+
+
+          <!-- MUSEUM -->
+          <h3>
+            The museum learned too
+          </h3>
+
+          <p>
+            The education officer gained a better understanding of
+            classroom practice and the demands placed on teachers each
+            day. The partnership also highlighted useful approaches and
+            activities that could inform the museum's wider learning
+            programme.
+          </p>
+
+          <p>
+            Most importantly, the experience helped establish an ongoing
+            relationship between the school and the museum.
+          </p>
+
+
+          <!-- SUCCESS -->
+          <h3>
+            What made it work?
+          </h3>
+
+          <ul>
+            <li>Close planning between the teacher and museum education officer.</li>
+            <li>Support from the teaching assistant, parents, park and museum staff.</li>
+            <li>A topic that connected naturally with the museum's collections.</li>
+            <li>A creative and playful approach to learning.</li>
+            <li>Using different museum and park spaces throughout the week.</li>
+            <li>Involving parents and carers in the final afternoon.</li>
+          </ul>
+
+          <blockquote>
+
+            “Gosh, we're exhausted. Wasn't it so worthwhile? It was really
+            really worthwhile.”
+
+            <cite>
+              Lingfield Primary teacher
+            </cite>
+
+          </blockquote>
+
+
+          <!-- FULL PDF -->
+          <div class="text-center mt-5">
+
+            <a href="assets/case-studies/Lingfield Class in Residence case study 2019.pdf"
+              class="btn-pill btn-pinky-red-outline" target="_blank" rel="noopener">
+              Read the full case study PDF →
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Tate Liverpool Modal -->
+  <div class="modal fade case-study-modal" id="tateLiverpoolModal" tabindex="-1" role="dialog"
+    aria-labelledby="tateLiverpoolModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <div>
+            <div class="case-study-card-tag mb-1">Liverpool · 2016</div>
+            <h2 class="modal-title" id="tateLiverpoolModalLabel">
+              My Primary School is at Tate Liverpool
+            </h2>
+          </div>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+
+          <p class="lead">
+            Building on an established relationship, Kensington
+            Children's Centre and nursery based a group of pre-school
+            children at Tate Liverpool for two weeks.
+          </p>
+
+          <p>
+            Both Tate and nursery staff were surprised at how quickly
+            the children felt relaxed in their new surroundings and how
+            well they behaved in the public spaces. The children began
+            talking more, experimenting with their play and developing
+            greater independence.
+          </p>
+
+          <h3>The setting</h3>
+
+          <p>
+            Kensington Children's Centre delivers childcare for
+            children aged six months to five years, with learning
+            through play and challenging activities. The nursery
+            already had an established relationship with cultural
+            organisations including Tate Liverpool.
+          </p>
+
+          <p>
+            Tate Liverpool is housed in a converted warehouse at
+            Liverpool's Albert Dock and displays work from the
+            national collection of British art, alongside international
+            modern and contemporary art.
+          </p>
+
+          <h3>Two weeks in the gallery</h3>
+
+          <p>
+            The project ran from 29 February to 11 March 2016. Twenty-four
+            pre-school children aged three to four took part, with a
+            maximum of fifteen children in the gallery each day.
+          </p>
+
+          <p>
+            Tate Liverpool's usual Early Years programme lasted around
+            two hours. Having the children at the gallery for most of
+            the day created a much more relaxed and open-ended dynamic
+            between the nursery practitioners and Tate staff.
+          </p>
+
+          <p>
+            Based in the Clore Learning Centre, the children were
+            encouraged to explore the gallery's resources and move
+            between spaces according to their interests.
+          </p>
+
+          <blockquote>
+            “We wanted them to have as much fun as possible and enjoy it,
+            but feel safe and be comfortable and feel like they own
+            these spaces.”
+            <cite>Debbie Goldsmith, Tate Liverpool</cite>
+          </blockquote>
+
+          <h3>Following the children's interests</h3>
+
+          <p>
+            A specialist arts practitioner created a large visual
+            'discovery tree' on the wall. This mapped the children's
+            interests and linked them to works in the collection and
+            resources brought in from the nursery, including toys,
+            dolls and paintings.
+          </p>
+
+          <p>
+            Activities were added to the tree throughout the project,
+            creating a visual record of how individual children's
+            interests developed over the two weeks.
+          </p>
+
+          <p>
+            The children could choose from a wide range of materials
+            including clay, sand, paints, string and straws, alongside
+            wooden blocks, toy animals, dolls and tea sets.
+          </p>
+
+          <blockquote>
+            “They actually wrapped the blocks into the tin foil and
+            stood them all up and said it just looks like the art.”
+            <cite>Marie Harper, Kensington Children's Centre</cite>
+          </blockquote>
+
+          <h3>Beyond the gallery</h3>
+
+          <p>
+            The project also included trips beyond Tate Liverpool.
+            Tate staff accompanied the children to the Museum of
+            Liverpool and on a ferry trip, extending the children's
+            experience of the waterfront and the wider cultural
+            environment.
+          </p>
+
+          <p>
+            At the gallery's Art Gym, the children helped prepare for a
+            party by making lanterns for the LED lights. They also
+            enjoyed dancing and mixing with other gallery visitors.
+          </p>
+
+          <blockquote>
+            “This project was much more exploratory and child-led.
+            What they were interested in wasn't always what I would
+            have picked out.”
+            <cite>Katy McCall, Tate Liverpool</cite>
+          </blockquote>
+
+          <h3>What changed?</h3>
+
+          <h4>For the children</h4>
+
+          <ul>
+            <li>New friendships developed.</li>
+            <li>Children became more confident speaking, particularly in group discussions.</li>
+            <li>Children demonstrated greater independence, including choosing their own meals at the gallery café.</li>
+            <li>The variety of materials and activities allowed children's imaginations to flourish.</li>
+          </ul>
+
+          <blockquote>
+            “We did have a wow-moment today. One of the children spoke
+            for the first time to another child.”
+            <cite>Marie Harper, Kensington Children's Centre</cite>
+          </blockquote>
+
+          <h4>For the nursery</h4>
+
+          <ul>
+            <li>
+              Practitioners were able to test ideas in a new environment
+              with the support of experienced facilitators.
+            </li>
+            <li>
+              Ideas and approaches from the gallery could be transferred
+              back into the nursery, including creating a 'mini-Tate'.
+            </li>
+            <li>
+              Parents were enthusiastic and supportive of the project.
+            </li>
+          </ul>
+
+          <h4>For Tate Liverpool</h4>
+
+          <ul>
+            <li>
+              Staff had the opportunity to observe very young children
+              accessing the collection over an extended period.
+            </li>
+            <li>
+              People working throughout the gallery, including security
+              staff, became enthusiastic supporters of the project.
+            </li>
+            <li>
+              The project was endorsed at senior organisational level,
+              with Tate investigating the possibility of future school
+              residencies.
+            </li>
+          </ul>
+
+          <blockquote>
+            “Our vision is really about co-design, co-creation and
+            co-production. So My Primary School is at the Museum is just
+            a fantastic way of testing that out.”
+            <cite>Lindsey Fryer, Tate Liverpool</cite>
+          </blockquote>
+
+          <h3>What did they learn?</h3>
+
+          <p>
+            The project showed what could happen when very young children
+            were given the time and freedom to explore a cultural
+            environment rather than simply visiting it for a short,
+            structured session.
+          </p>
+
+          <p>
+            For Tate staff, the extended residency provided a different
+            way of observing children's engagement with the collection.
+            For nursery practitioners, it offered the chance to experiment
+            with new approaches and then bring ideas back into the
+            nursery setting.
+          </p>
+
+          <h3>Challenges</h3>
+
+          <p>
+            Finding sufficient space for a two-week project had an impact
+            on access for other groups using Tate Liverpool. Staff
+            resources were also stretched, with additional adults needed
+            to relieve some of the pressure of supervising activities.
+          </p>
+
+          <div class="mt-5 pt-4 border-top">
+
+            <h4>Project details</h4>
+
+            <ul class="list-unstyled mb-4">
+              <li class="mb-2"><strong>Location:</strong> Tate Liverpool, Albert Dock</li>
+              <li class="mb-2"><strong>Date:</strong> 29 February – 11 March 2016</li>
+              <li class="mb-2"><strong>Children:</strong> 24 pre-school children, aged 3–4</li>
+              <li class="mb-2"><strong>Daily attendance:</strong> Maximum 15 children</li>
+              <li class="mb-2"><strong>Nursery:</strong> Kensington Children's Centre and Nursery</li>
+            </ul>
+
+            <a href="{{ url_for('static', filename='assets/case-studies/Tate Liverpool Case Study 2016 .pdf') }}" class="btn btn-pinky-red-outline btn-pill"
+              target="_blank">
+              Read the full case study
+              <i class="fas fa-file-pdf ml-2"></i>
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arbeia Roman Fort Modal -->
+  <div class="modal fade case-study-modal" id="arbeiaModal" tabindex="-1" role="dialog"
+    aria-labelledby="arbeiaModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <div>
+            <div class="case-study-card-tag mb-1">South Shields · 2016</div>
+            <h2 class="modal-title" id="arbeiaModalLabel">
+              My Primary School is at Arbeia Roman Fort
+            </h2>
+          </div>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+
+          <p class="lead">
+            At Arbeia Roman Fort, directly opposite their school, a
+            Year 5 class experienced familiar subjects in a stimulating
+            new environment.
+          </p>
+
+          <p>
+            Over three months, the children discovered how a heritage
+            site could support learning across a much broader curriculum
+            than history alone. By the end of the project, they were
+            confident and knowledgeable enough to act as tour guides for
+            parents and visitors.
+          </p>
+
+          <p>
+            The project also changed how the school viewed the site.
+            Hadrian Primary School began planning to make much greater
+            use of Arbeia, while the museum wanted to develop its
+            relationships with local schools and reach families who may
+            never otherwise have visited.
+          </p>
+
+          <h3>The setting</h3>
+
+          <p>
+            Hadrian Primary School is situated close to the River Tyne,
+            the coastline, South Marine Park and Arbeia Roman Fort. The
+            school's location gives its pupils access to a rich
+            geographical, cultural and historical environment.
+          </p>
+
+          <p>
+            Built around AD 150, Arbeia Roman Fort was a key garrison
+            and military supply base and guarded the main sea route to
+            Hadrian's Wall. The site includes excavated remains and
+            full-scale reconstructions, including the West Gate,
+            Commanding Officer's house and a soldier's barrack.
+          </p>
+
+          <h3>Learning across the curriculum</h3>
+
+          <p>
+            The project's connection with history was an obvious starting
+            point, but class teacher Stephanie Christie quickly found
+            opportunities to teach geography, maths and literacy at the
+            site as well.
+          </p>
+
+          <p>
+            Writing became an important part of the children's work.
+            They kept their own log books, recorded their experiences and
+            were keen to tell the whole school and their families what
+            they had been doing. They also used Twitter to share updates
+            about the project.
+          </p>
+
+          <p>
+            Museum workshops provided further opportunities to explore
+            Roman life. During a 'time quest' activity, the children
+            became archaeologists, excavated Roman artefacts and recorded
+            what they discovered in diary entries.
+          </p>
+
+          <blockquote>
+            “The creativity in the writing was phenomenal.”
+            <cite>Stephanie Christie, class teacher</cite>
+          </blockquote>
+
+          <h3>Using the site differently</h3>
+
+          <p>
+            The children spent more time outside than they normally would,
+            exploring the extensive archaeological remains. This encouraged
+            their teacher to look at familiar subjects in new ways.
+          </p>
+
+          <p>
+            In maths, for example, the children went on an angle hunt
+            using protractors and searched for Roman numerals around the
+            site.
+          </p>
+
+          <p>
+            The museum team also found that the project opened up new
+            possibilities for using the site across the curriculum.
+          </p>
+
+          <blockquote>
+            “For teaching across a broad curriculum, we've definitely
+            discovered lots of new ways to utilise the space.”
+            <cite>Leslie Palanker-Jermyn, Arbeia</cite>
+          </blockquote>
+
+          <h3>Becoming tour guides</h3>
+
+          <p>
+            One of the most memorable activities was a slavery workshop.
+            The children experienced aspects of everyday life through
+            practical activities including baking bread, making herbal
+            remedies, bed making and washing dirty nappies, under the
+            watchful eye of the commanding officer's wife, played by
+            learning officer Leslie Palanker-Jermyn.
+          </p>
+
+          <p>
+            Towards the end of the project, the children drew on
+            everything they had learned to interpret the heritage of
+            Arbeia themselves. They acted as tour guides for parents and
+            visitors, sharing their knowledge of the site with confidence.
+          </p>
+
+          <blockquote>
+            “There is a change in their maturity, in how they approach
+            the space and the building.”
+            <cite>Leslie Palanker-Jermyn, Arbeia</cite>
+          </blockquote>
+
+          <h3>What changed?</h3>
+
+          <h4>For the children</h4>
+
+          <ul>
+            <li>
+              Increased enthusiasm for learning encouraged the children
+              to generate their own ideas for teaching sessions.
+            </li>
+            <li>
+              Writing about their activities and using new vocabulary
+              supported improvements in literacy.
+            </li>
+            <li>
+              The children developed a strong desire to share their
+              experience and knowledge with other children and their
+              families.
+            </li>
+            <li>
+              Their confidence and maturity grew as they took ownership
+              of the site and their learning.
+            </li>
+          </ul>
+
+          <blockquote>
+            “They've got an even deeper interest in their learning than
+            they had before.”
+            <cite>Stephanie Christie, class teacher</cite>
+          </blockquote>
+
+          <h4>For Hadrian Primary School</h4>
+
+          <ul>
+            <li>
+              Staff discovered a valuable and easily accessible teaching
+              resource on their doorstep.
+            </li>
+            <li>
+              The project encouraged a more creative and flexible
+              approach to teaching.
+            </li>
+            <li>
+              The site was identified as having potential for staff
+              training and meetings as well as pupil learning.
+            </li>
+          </ul>
+
+          <blockquote>
+            “I think it's opened their eyes to actually what we've got on
+            our doorstep, which is a fantastic site that you can use for
+            learning with the children.”
+            <cite>Stephanie Christie, class teacher</cite>
+          </blockquote>
+
+          <h4>For Arbeia Roman Fort</h4>
+
+          <ul>
+            <li>
+              Hadrian Primary provided a useful model for building a
+              strong relationship between a museum and a local school.
+            </li>
+            <li>
+              Museum staff developed new ideas for using the site across
+              the whole curriculum.
+            </li>
+            <li>
+              The project provided an opportunity to work through the
+              practical and logistical challenges of accommodating
+              school groups.
+            </li>
+            <li>
+              The experience helped the museum consider how to develop
+              stronger relationships with local schools and families.
+            </li>
+          </ul>
+
+          <h3>Challenges</h3>
+
+          <p>
+            Not every part of the curriculum transferred easily to the
+            fort. Subjects such as PE and ICT were difficult to incorporate
+            into the setting.
+          </p>
+
+          <p>
+            The museum also had to make practical adaptations to the site,
+            including changes to the acoustics in one teaching space.
+            Coordinating school routines such as registration, break times
+            and assemblies could also make it difficult to use time as
+            effectively as possible.
+          </p>
+
+          <div class="mt-5 pt-4 border-top">
+
+            <h4>Project details</h4>
+
+            <ul class="list-unstyled mb-4">
+              <li class="mb-2">
+                <strong>Location:</strong> Arbeia Roman Fort, South Shields
+              </li>
+              <li class="mb-2">
+                <strong>Date:</strong> 4 January – 23 March 2016
+              </li>
+              <li class="mb-2">
+                <strong>Children:</strong> 29 Year 5 pupils, aged 9–10
+              </li>
+              <li class="mb-2">
+                <strong>School:</strong> Hadrian Primary School
+              </li>
+              <li class="mb-2">
+                <strong>Museum:</strong> Arbeia Roman Fort &amp; Museum
+              </li>
+            </ul>
+
+            <a href="{{ url_for('static', filename='assets/case-studies/South Shields 2016.pdf') }}" class="btn btn-pinky-red-outline btn-pill"
+              target="_blank">
+              Read the full case study
+              <i class="fas fa-file-pdf ml-2"></i>
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cambridge Nursery in Residence Modal -->
+  <div class="modal fade case-study-modal" id="cambridgeModal" tabindex="-1" role="dialog"
+    aria-labelledby="cambridgeModalLabel" aria-hidden="true">
+
+    <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
+
+      <div class="modal-content">
+
+        <div class="modal-header">
+          <div>
+            <div class="case-study-card-tag mb-1">Cambridge · 2018–19</div>
+            <h2 class="modal-title" id="cambridgeModalLabel">
+              Nursery in Residence
+            </h2>
+          </div>
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+
+          <p class="lead">
+            What happens when young children are given the time and
+            attention to explore museum and garden spaces on their own
+            terms?
+          </p>
+
+          <p>
+            The University of Cambridge Museums' Nursery in Residence
+            project brought together nine young children, nursery
+            practitioners and museum educators for five days of
+            observation, exploration and reflection.
+          </p>
+
+          <p>
+            The project involved educators from Cambridge University
+            Botanic Garden and the Fitzwilliam Museum, with the team
+            documenting what they saw through field notes, photographs,
+            practitioner surveys and video.
+          </p>
+
+          <h3>A shared process of learning</h3>
+
+          <p>
+            The project was built around a cycle of observation,
+            reflection, planning and action. Rather than starting with
+            a fixed programme of activities, the educators paid close
+            attention to what interested the children and used those
+            observations to shape what happened next.
+          </p>
+
+          <p>
+            The approach was influenced by the work of Loris Malaguzzi,
+            who wrote about the importance of standing aside, making room
+            for learning and observing children carefully before deciding
+            how to teach.
+          </p>
+
+          <blockquote>
+            “Stand aside for a while and leave room for learning,
+            observe what children do, and then, if you have understood
+            it well, perhaps teaching will be different from before.”
+            <cite>Loris Malaguzzi</cite>
+          </blockquote>
+
+          <h3>Young children care about our collections</h3>
+
+          <p>
+            One of the project's key findings was that young children
+            were deeply engaged with the collections and spaces around
+            them.
+          </p>
+
+          <p>
+            Objects became ways of connecting different experiences,
+            while the children used a mixture of play, conversation,
+            movement and making meaning together.
+          </p>
+
+          <p>
+            The project also exposed a tension between freedom and
+            control. Giving children genuine freedom to explore required
+            adults to reconsider how much they directed, and how much
+            they allowed to unfold.
+          </p>
+
+          <h3>Learning to listen</h3>
+
+          <p>
+            The experience had an impact beyond the five days themselves.
+            Nursery practitioners described how the project changed the
+            way they listened to and observed children back in the
+            nursery.
+          </p>
+
+          <blockquote>
+            “I tried even more when I came back. I thought, these
+            children had this gift that we gave them: all this
+            attention. So I tried to do it even more when I came back.”
+            <cite>Post-project interview with a nursery practitioner</cite>
+          </blockquote>
+
+          <p>
+            The practitioner described the experience as giving children
+            something they particularly needed: the feeling of being
+            listened to.
+          </p>
+
+          <h3>A sense of belonging</h3>
+
+          <p>
+            The project also suggested that spending sustained time in
+            cultural spaces could help young children develop a genuine
+            sense of ownership and belonging.
+          </p>
+
+          <blockquote>
+            “It was just so beautiful to think: this is our place; we
+            know this place. That's what you want: for children to feel
+            free. That they belong there.”
+            <cite>Post-project interview with a nursery practitioner</cite>
+          </blockquote>
+
+          <p>
+            In one recorded exchange, an adult asked:
+          </p>
+
+          <blockquote>
+            “Whose garden is this then?”
+            <cite>Transcription from video footage</cite>
+          </blockquote>
+
+          <p>
+            The child's answer was simple:
+          </p>
+
+          <blockquote>
+            “Ours - children's.”
+            <cite>Alanna, recorded during the project</cite>
+          </blockquote>
+
+          <h3>Educators as learners</h3>
+
+          <p>
+            The project was not simply about what the children learned.
+            The educators were learners too.
+          </p>
+
+          <p>
+            By observing the children closely and reflecting together,
+            nursery and museum staff gained new perspectives on their
+            own practice and on the ways children engage with cultural
+            spaces.
+          </p>
+
+          <blockquote>
+            “There is a constant relational reciprocity between those
+            who educate and those who are educated, between those who
+            teach and those who learn.”
+            <cite>Carlina Rinaldi, 2001</cite>
+          </blockquote>
+
+          <h3>What did they discover?</h3>
+
+          <ul>
+            <li>
+              Young children can engage meaningfully with museum and
+              garden collections.
+            </li>
+            <li>
+              Objects can help children connect different experiences
+              and ideas.
+            </li>
+            <li>
+              Careful observation can reveal interests and learning
+              that adults might otherwise overlook.
+            </li>
+            <li>
+              Giving children more freedom requires adults to think
+              differently about their own role.
+            </li>
+            <li>
+              The experience influenced nursery practitioners'
+              practice beyond the project itself.
+            </li>
+            <li>
+              Spending sustained time in cultural spaces can help
+              children develop a sense that those spaces belong to them.
+            </li>
+          </ul>
+
+          <h3>What happened next?</h3>
+
+          <p>
+            The project led to a new line of enquiry. Having seen how
+            much the nine participating children gained from the
+            experience, the nursery team wanted to explore how similar
+            opportunities could be extended to all the children.
+          </p>
+
+          <blockquote>
+            “We could see how much those nine children got from it, so
+            actually, let's branch it out, let's give this kind of
+            experience to all the children.”
+            <cite>Post-project interview with a nursery practitioner</cite>
+          </blockquote>
+
+          <div class="mt-5 pt-4 border-top">
+
+            <h4>Project details</h4>
+
+            <ul class="list-unstyled mb-4">
+              <li class="mb-2">
+                <strong>Location:</strong> University of Cambridge Museums
+              </li>
+              <li class="mb-2">
+                <strong>Duration:</strong> 5 days
+              </li>
+              <li class="mb-2">
+                <strong>Children:</strong> 9
+              </li>
+              <li class="mb-2">
+                <strong>Educators:</strong> 7
+              </li>
+              <li class="mb-2">
+                <strong>Research material:</strong> 15 practitioner surveys,
+                25 pages of field notes and around 500 photographs
+              </li>
+            </ul>
+
+            <a href="{{ url_for('static', filename='assets/case-studies/CambridgeUniversityBotanicGarden Nursery In Residence presentation 2018_19.pdf') }}"
+              class="btn btn-pinky-red-outline btn-pill" target="_blank">
+              View the full presentation
+              <i class="fas fa-file-pdf ml-2"></i>
+            </a>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% endblock %}

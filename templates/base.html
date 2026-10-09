@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta tags for improved SEO using search keywords and descriptions -->
+    <meta name="description"
+        content="Curriculum-linked primary school workshops delivered in museums, designed to inspire learning, creativity and engagement for young people.">
+    <meta name="keywords"
+        content="museum education, primary school workshops, curriculum-linked learning, creative engagement, experiential learning, creative primary education, museum-based learning, immersive education">
+    <meta name="author" content="My Primary School is at the Museum (MPSM)">
+    <meta name="page-topic" content="Museum-based Primary Education">
+    <meta name="page-type" content="Educational Services">
+    <meta name="robots" content="index, follow">
+
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='assets/css/style.css') }}">
+    <!-- Google Fonts -->
+     <!-- Use Dosis 700 (headings) + Inter 400/500 (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!-- Favicon -->
+    <!-- TO DO: Make favicon and add images-->
+    <link rel="apple-touch-icon" sizes="180x180" href=".assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href=".assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+        </script>
+    <!-- Masonry -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <!-- imagesLoaded -->
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+
+    <title>{% block title %}MPSM{% endblock %}</title>
+</head>
+
+<body>
+
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                <img src="{{ url_for('static', filename='assets/images/260203MPSM Logo.jpeg') }}" alt="My Primary School is at the Museum Logo">
+                </a>
+
+                <!-- Mobile Toggle -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('how_we_do_it') }}">How We Do It</a>
+                    </li> 
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('projects') }}">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('publications') }}">Publications</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('news') }}">News</a>
+                    </li>
+
+                    <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+      <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-6 mb-4 mb-md-0">
+
+          <img src="{{ url_for('static', filename='assets/images/260203MPSM Logo.jpeg') }}" alt="My Primary School is at the Museum" height="65">
+
+          <p class="mt-3">
+            Transforming education through long-term partnerships
+            between primary schools and cultural organisations.
+          </p>
+
+        </div>
+
+        <div class="col-md-6 text-md-right">
+
+          <h4>
+            Explore MPSM
+          </h4>
+
+          <p>
+            <a href="{{ url_for('home') }}">Home</a>
+            <br>
+
+            <a href="{{ url_for('about') }}">About</a>
+            <br>
+
+            <a href="{{ url_for('how_we_do_it') }}">How We Do It</a>
+            <br>
+
+            <a href="{{ url_for('projects') }}">Projects</a>
+            <br>
+
+            <a href="{{ url_for('publications') }}">Publications</a>
+            <br>
+
+            <a href="{{ url_for('news') }}">News</a>
+            <br>
+
+            <a href="{{ url_for('contact') }}">Contact</a>
+          </p>
+
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="row">
+
+        <div class="col-12 text-center">
+
+          <p class="mb-0">
+            &copy; My Primary School is at the Museum
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
