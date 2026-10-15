@@ -2,277 +2,402 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- Meta tags for improved SEO using search keywords and descriptions -->
+  <meta name="description"
+    content="Curriculum-linked primary school workshops delivered in museums, designed to inspire learning, creativity and engagement for young people.">
+  <meta name="keywords"
+    content="museum education, primary school workshops, curriculum-linked learning, creative engagement, experiential learning, creative primary education, museum-based learning, immersive education">
+  <meta name="author" content="My Primary School is at the Museum (MPSM)">
+  <meta name="page-topic" content="Museum-based Primary Education">
+  <meta name="page-type" content="Educational Services">
+  <meta name="robots" content="index, follow">
 
-    <!-- Meta tags for improved SEO using search keywords and descriptions -->
-    <meta name="description"
-        content="Curriculum-linked primary school workshops delivered in museums, designed to inspire learning, creativity and engagement for young people.">
-    <meta name="keywords"
-        content="museum education, primary school workshops, curriculum-linked learning, creative engagement, experiential learning, creative primary education, museum-based learning, immersive education">
-    <meta name="author" content="My Primary School is at the Museum (MPSM)">
-    <meta name="page-topic" content="Museum-based Primary Education">
-    <meta name="page-type" content="Educational Services">
-    <meta name="robots" content="index, follow">
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Google Fonts -->
+  <!-- Use Dosis 700 (headings) + Inter 400/500 (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <!-- Favicon -->
+  <!-- TO DO: Make favicon and add images-->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+  <!-- Masonry -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
-    <!-- Bootstrap 4 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Google Fonts -->
-     <!-- Use Dosis 700 (headings) + Inter 400/500 (body) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer">
-    <!-- Favicon -->
-    <!-- TO DO: Make favicon and add images-->
-    <link rel="apple-touch-icon" sizes="180x180" href=".assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href=".assets/images/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-        </script>
-    <!-- Bootstrap JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-        </script>
+  <!-- imagesLoaded -->
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
-    <title>My Primary School is at the Museum (MPSM)| Museum-based Primary Education</title>
+  <title>How We Do It | My Primary School is at the Museum (MPSM)</title>
 </head>
 
-<header id="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
-        <div class="container">
-
-            <!-- Logo -->
-            <a class="navbar-brand" href="#">
-            <img src="assets/images/260203MPSM Logo.jpeg" alt="My Primary School is at the Museum">
-            </a>
-
-            <!-- Mobile Toggle -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <!-- Navigation Links -->
-            <div class="collapse navbar-collapse justify-content-end" id="mainNav">
-            <ul class="navbar-nav">
-
-                <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="how-we-do-it.html">About</a>
-                </li>
-
-                <li class="nav-item active">
-                <a class="nav-link" href="projects.html">Projects</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="#">Publications</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="#">News</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-
 <body>
-    <main>
+  <!-- HEADER -->
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+      <div class="container">
 
-        <!-- HERO -->
-        <section class="country-hero">
-        <div class="container">
-            <h1 class="display-4 font-weight-bold">Transforming Education, <br><span>Country by Country</span></h1>
-            <p class="lead mt-4 mb-4 col-md-8 mx-auto">
-            Our projects represent a global movement of "museum-schools" — long term residencies
-            that turn cultural institutions into full-time learning environments for primary students.
-            </p>
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/260203MPSM Logo.jpeg" alt="My Primary School is at the Museum Logo">
+        </a>
+
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav"
+          aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+          <ul class="navbar-nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="how-we-do-it.html">How We Do It</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="publications.html">Publications</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+
+          </ul>
         </div>
-        </section>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="country-hero">
+      <div class="container">
+        <h1 class="display-4 font-weight-bold">Transforming Education, <br><span>Country by Country</span></h1>
+        <p class="lead mt-4 mb-4 col-md-8 mx-auto">
+          Our projects represent a global movement of "museum-schools" — long term residencies
+          that turn cultural institutions into full-time learning environments for primary students.
+        </p>
+      </div>
+    </section>
 
 
-<!-- COUNTRY GRID -->
-<section class="country-section">
-  <div class="container">
-    <div class="row">
+    <!-- COUNTRY GRID -->
+    <section class="country-section">
+      <div class="container">
+        <div class="row">
 
-      <!-- England -->
-      <div class="col-md-6 country-card">
-        <img src="assets/images/IMG_0118.JPG" class="img-fluid" alt="A primary school-age boy talking to his teacher in a botanical garden setting.">
-        <h3 class="england-card">England</h3>
-        <p>
-          England has hosted some of our most ambitious projects, including our longest full-time residency to date: a three-month placement for a Year 5 class.
-        </p>
-        <p>
-          Our work in England has spanned the widest age range, from nursery and pre-school children, to 10-year olds.
-        </p>
-        <p>
-          Projects have taken place in settings ranging from regional museums such as Arbeia in Tyne & Wear to nationally renowned institutions including Tate Liverpool and the Fitzwilliam Museum, alongside the Botanic Gardens in Cambridge.
-        </p>
-        <p>
-          Through these partnerships, we aim to help bridge socio-economic gaps by giving children access to cultural and scientific experiences they might not otherwise have.
-        </p>
+          <!-- England -->
+          <div class="col-md-6 country-card">
+            <img src="assets/images/IMG_0118.JPG" class="img-fluid"
+              alt="A primary school-age boy talking to his teacher in a botanical garden setting.">
+            <h3 class="england-card">England</h3>
+            <p>
+              England has hosted some of our most ambitious projects, including our longest full-time residency to date:
+              a three-month placement for a Year 5 class.
+            </p>
+            <p>
+              Our work in England has spanned the widest age range, from nursery and pre-school children, to 10-year
+              olds.
+            </p>
+            <p>
+              Projects have taken place in settings ranging from regional museums such as Arbeia in Tyne & Wear to
+              nationally renowned institutions including Tate Liverpool and the Fitzwilliam Museum, alongside the
+              Botanic Gardens in Cambridge.
+            </p>
+            <p>
+              Through these partnerships, we aim to help bridge socio-economic gaps by giving children access to
+              cultural and scientific experiences they might not otherwise have.
+            </p>
 
-        <a href="gallery-england.html" class="btn-pill btn-pinky-red-outline">View gallery →</a>
-        <a href="case-studies-england.html" class="btn-pill btn-pinky-red-outline">View Case Studies →</a>
+            <a href="gallery_england.html" class="btn-pill btn-pinky-red-outline">View gallery →</a>
+            <a href="case_studies_england.html" class="btn-pill btn-pinky-red-outline">View Case Studies
+              →</a>
+          </div>
+
+          <!-- Germany -->
+          <div class="col-md-6 country-card">
+            <img src="assets/images/hamburg/IMG_20201214_102820.jpg" class="img-fluid" alt="A child's hands putting mango into a bowl.">
+            <h3 class="germany-card">Germany</h3>
+            <p>
+              In partnership with the Open-Air Museum at Kiekeberg, just south of Hamburg, this project supports
+              children aged 7–10 with complex learning needs and social behavioural challenges — known as SEND students
+              in the UK.
+            </p>
+            <p>
+              Through hands-on learning that engages “hand, heart and head”, pupils explore food and nutrition,
+              agriculture, natural science and regional history. Direct interaction with these subjects encourages
+              curiosity, creativity and concentration, while helping children feel more connected to their community.
+            </p>
+            <p>
+              The programme has now been running for five years and continues to deliver strong outcomes. Many
+              participating children have shown increased confidence, improved social participation and, in some cases,
+              have returned to their regular classes.
+            </p>
+            <p>
+              In 2025, the museum hosted an international conference to examine the project and its potential for wider
+              application.
+            </p>
+            <a href="gallery_germany.html" class="btn-pill btn-orange-outline">View gallery →</a>
+            <a href="case_studies_germany.html" class="btn-pill btn-orange-outline">View Case Studies →</a>
+          </div>
+
+          <!-- Norway -->
+          <div class="col-md-6 country-card">
+            <img src="assets/images/IMG_0132.JPG" class="img-fluid"
+              alt="Adults and children sitting on the floor together being read a story in a museum setting.">
+            <h3 class="norway-card">Norway</h3>
+            <p>
+              Our projects in Norway have focused on the city of Bergen and children of pre-school age.
+            </p>
+            <p>
+              Working with the city’s education department, museums and university, the programme uses local art,
+              culture and nature to create a rich setting for play and learning. The project also serves to welcome
+              young children as new citizens of Bergen.
+            </p>
+            <p>
+              Activities take place across key cultural sites, including the Cultural History Museum, the neighbouring
+              botanical garden and the historic Bryggen wharf, home to the remains of the medieval town hall. Through
+              storytelling, role play and creative exploration, children engage with social history, nature studies,
+              drawing and even introductory science
+            </p>
+            <p>
+              These experiences help children develop a sense of belonging and an early understanding that the culture
+              and heritage of their city are part of their own home place.
+            </p>
+            <a href="gallery_norway.html" class="btn-pill btn-teal-outline">View gallery →</a>
+            <a href="case_studies_norway.html" class="btn-pill btn-teal-outline">View Case Studies →</a>
+          </div>
+
+          <!-- Republic of Ireland -->
+          <div class="col-md-6 country-card">
+            <img src="assets/images/IMG_0366.JPG" class="img-fluid"
+              alt="A child's hands drawing with chalks on a blackboard.">
+            <h3 class="roi-card">Republic of Ireland</h3>
+            <p>
+              Our projects in the Republic of Ireland, in Dublin and near Cork, have been especially creative in their
+              approach
+            </p>
+            <p>
+              At the National Gallery in Dublin, two classes from a specialist primary school for children with dyslexia
+              took part in a residency programme. Using the gallery’s collections as inspiration, pupils explored art,
+              English, mathematics, geography, science and history. The project culminated in the students curating
+              their own “Open Studio” exhibition, which was seen by more than 2,000 visitors.
+            </p>
+            <p>
+              At Lismore, just north of Cork, the castle worked with a creative cluster of five local primary schools.
+              Children produced dynamic installations and displays inspired by both art and the natural environment they
+              experienced during their time there.
+            </p>
+            <p>
+              Both programmes broadened access to the curriculum and supported more inclusive approaches to learning.
+            </p>
+            <a href="gallery_roi.html" class="btn-pill btn-green-outline">View gallery →</a>
+            <a href="case_studies_roi.html" class="btn-pill btn-green-outline">View Case Studies →</a>
+          </div>
+
+          <!-- Scotland -->
+          <div class="col-md-6 country-card">
+            <img src="assets/images/swansea/WNS_230616_Waterfront_Schools_106.JPG" class="img-fluid" alt="Primary school ages girls sitting on the grass in a museum garden.">
+            <h3 class="scotland-card">Scotland</h3>
+            <p>
+              In Scotland, the V&A Dundee has led the way with an MPSM programme called Schoolseum, designed to inspire
+              9–10 year-olds from disadvantaged areas of the city by introducing them to potential creative careers.
+            </p>
+            <p>
+              Pupils could choose to explore jewellery and fashion design, architecture and engineering, game design, or
+              curation and exhibition design. Using the collections of Scotland’s design museum and the surrounding city
+              as inspiration, they experimented with materials and design techniques to develop ideas and prototypes.
+            </p>
+            <p>
+              Students shared their work through storytelling, displays and presentations to audiences, bringing their
+              creative process to life.
+            </p>
+            <p>
+              Launched in 2025, the programme proved so successful that the V&A has continued it as one of its most
+              popular public programmes.
+            </p>
+            <a href="gallery_scotland.html" class="btn-pill btn-purple-outline">View gallery →</a>
+            <a href="case_studies_scotland.html" class="btn-pill btn-purple-outline">View Case Studies →</a>
+          </div>
+
+          <!-- Wales -->
+          <div class="col-md-6 country-card">
+            <img src="assets/images/swansea/WNS_230616_Waterfront_Schools_76.JPG" class="img-fluid" alt="A primary school-age boy and an adult wearing period hats in a museum setting.">
+            <h3 class="wales-card">Wales</h3>
+            <p>
+              MPSM projects in Wales have been running for over ten years and are now firmly embedded in the culture of
+              local schools. The programme works in partnership with the National Waterfront Museum and the teacher
+              training college at Trinity St David’s, all based in Swansea.
+            </p>
+            <p>
+              St Thomas’s Community School first took part in 2016, sending two reception classes to the museum for five
+              weeks each — the first time lessons had taken place outside the classroom.
+            </p>
+            <p>
+              Teachers quickly noted improvements in children’s language skills, self-confidence and social engagement.
+            </p>
+            <p>
+              With interpretation provided bilingually, the museum supports the development of both Welsh and English.
+              Storytelling across the curriculum comes to life in a setting rich with science, engineering, social
+              history, poetry and art.
+            </p>
+            <a href="gallery_wales.html" class="btn-pill btn-red-outline">View gallery →</a>
+            <a href="case_studies_wales.html" class="btn-pill btn-red-outline">View Case Studies →</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BOX -->
+    <section>
+      <div class="container">
+        <div class="cta-box">
+          <h3>Want to bring MPSM to your museum or school?</h3>
+          <p>
+            We provide the framework, research and support needed to launch
+            successful museum-school residencies anywhere in the world.
+          </p>
+          <a href="contact.html" class="btn btn-info mr-2">Contact us</a>
+          <a href="#" class="btn btn-secondary">View toolkit</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="cta-section text-center py-5">
+      <div class="container">
+        <h3 class="mb-4">
+          Join us in shaping the future of primary education,
+          one museum residency at a time.
+        </h3>
+
+        <a href="contact.html" class="btn-pill btn-white-solid">
+          Contact us
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer mt-4">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-6 mb-4 mb-md-0">
+
+          <img src="assets/images/260203MPSM Logo.jpeg" alt="My Primary School is at the Museum" height="65">
+
+          <p class="footer-tagline mt-3">
+            Transforming education through long-term partnerships
+            between primary schools and cultural organisations.
+          </p>
+
+        </div>
+
+        <div class="col-md-6 text-md-right">
+
+          <h4>
+            Explore MPSM
+          </h4>
+
+          <p class="footer-links">
+            <a href="index.html">Home</a>
+            <br>
+
+            <a href="about.html">About</a>
+            <br>
+
+            <a href="how-we-do-it.html">How We Do It</a>
+            <br>
+
+            <a href="projects.html">Projects</a>
+            <br>
+
+            <a href="publications.html">Publications</a>
+            <br>
+
+            <a href="news.html">News</a>
+            <br>
+
+            <a href="contact.html">Contact</a>
+          </p>
+
+        </div>
+
       </div>
 
-      <!-- Germany -->
-      <div class="col-md-6 country-card">
-        <img src="assets/images/hamburg/IMG_20201214_102820.jpg" class="img-fluid" alt="A child's hands putting mango into a bowl.">
-        <h3 class="germany-card">Germany</h3>
-        <p>
-          In partnership with the Open-Air Museum at Kiekeberg, just south of Hamburg, this project supports children aged 7–10 with complex learning needs and social behavioural challenges — known as SEND students in the UK.
-        </p>
-        <p>
-          Through hands-on learning that engages “hand, heart and head”, pupils explore food and nutrition, agriculture, natural science and regional history. Direct interaction with these subjects encourages curiosity, creativity and concentration, while helping children feel more connected to their community.
-        </p>
-        <p>
-          The programme has now been running for five years and continues to deliver strong outcomes. Many participating children have shown increased confidence, improved social participation and, in some cases, have returned to their regular classes.
-        </p>
-        <p>
-          In 2025, the museum hosted an international conference to examine the project and its potential for wider application.
-        </p>
-        <a href="gallery-germany.html" class="btn-pill btn-orange-outline">View gallery →</a>
-        <a href="case-studies-germany.html" class="btn-pill btn-orange-outline">View Case Studies →</a>
-      </div>
+      <hr>
 
-      <!-- Norway -->
-      <div class="col-md-6 country-card">
-        <img src="assets/images/IMG_0132.JPG" class="img-fluid" alt="Adults and children sitting on the floor together being read a story in a museum setting.">
-        <h3 class="norway-card">Norway</h3>
-        <p>
-          Our projects in Norway have focused on the city of Bergen and children of pre-school age.
-        </p>
-        <p>
-          Working with the city’s education department, museums and university, the programme uses local art, culture and nature to create a rich setting for play and learning. The project also serves to welcome young children as new citizens of Bergen.
-        </p>
-        <p>
-          Activities take place across key cultural sites, including the Cultural History Museum, the neighbouring botanical garden and the historic Bryggen wharf, home to the remains of the medieval town hall. Through storytelling, role play and creative exploration, children engage with social history, nature studies, drawing and even introductory science
-        </p>
-        <p>
-          These experiences help children develop a sense of belonging and an early understanding that the culture and heritage of their city are part of their own home place.
-        </p>
-        <a href="gallery-norway.html" class="btn-pill btn-teal-outline">View gallery →</a>
-        <a href="case-studies-norway.html" class="btn-pill btn-teal-outline">View Case Studies →</a>
-      </div>
+      <div class="row">
 
-      <!-- Republic of Ireland -->
-      <div class="col-md-6 country-card">
-        <img src="assets/images/IMG_0366.JPG" class="img-fluid" alt="A child's hands drawing with chalks on a blackboard.">
-        <h3 class="roi-card">Republic of Ireland</h3>
-        <p>
-          Our projects in the Republic of Ireland, in Dublin and near Cork, have been especially creative in their approach
-        </p>
-        <p>
-          At the National Gallery in Dublin, two classes from a specialist primary school for children with dyslexia took part in a residency programme. Using the gallery’s collections as inspiration, pupils explored art, English, mathematics, geography, science and history. The project culminated in the students curating their own “Open Studio” exhibition, which was seen by more than 2,000 visitors.
-        </p>
-        <p>
-          At Lismore, just north of Cork, the castle worked with a creative cluster of five local primary schools. Children produced dynamic installations and displays inspired by both art and the natural environment they experienced during their time there.
-        </p>
-        <p>
-          Both programmes broadened access to the curriculum and supported more inclusive approaches to learning.
-        </p>
-        <a href="gallery-roi.html" class="btn-pill btn-green-outline">View gallery →</a>
-        <a href="case-studies-roi.html" class="btn-pill btn-green-outline">View Case Studies →</a>
-      </div>
+        <div class="col-12 text-center">
 
-      <!-- Scotland -->
-      <div class="col-md-6 country-card">
-        <img src="assets/images/swansea/WNS_230616_Waterfront_Schools_106.JPG" class="img-fluid" alt="Primary school ages girls sitting on the grass in a museum garden.">
-        <h3 class="scotland-card">Scotland</h3>
-        <p>
-          In Scotland, the V&A Dundee has led the way with an MPSM programme called Schoolseum, designed to inspire 9–10 year-olds from disadvantaged areas of the city by introducing them to potential creative careers.
-        </p>
-        <p>
-          Pupils could choose to explore jewellery and fashion design, architecture and engineering, game design, or curation and exhibition design. Using the collections of Scotland’s design museum and the surrounding city as inspiration, they experimented with materials and design techniques to develop ideas and prototypes.
-        </p>
-        <p>
-          Students shared their work through storytelling, displays and presentations to audiences, bringing their creative process to life.
-        </p>
-        <p>
-          Launched in 2025, the programme proved so successful that the V&A has continued it as one of its most popular public programmes.
-        </p>
-        <a href="gallery-scotland.html" class="btn-pill btn-purple-outline">View gallery →</a>
-        <a href="case-studies-scotland.html" class="btn-pill btn-purple-outline">View Case Studies →</a>
-      </div>
+          <p class="mb-0">
+            &copy; <span id="copyright-year"></span> My Primary School is at the Museum
+          </p>
 
-      <!-- Wales -->
-      <div class="col-md-6 country-card">
-        <img src="assets/images/swansea/WNS_230616_Waterfront_Schools_76.JPG" class="img-fluid" alt="A primary school-age boy and an adult wearing period hats in a museum setting.">
-        <h3 class="wales-card">Wales</h3>
-        <p>
-          MPSM projects in Wales have been running for over ten years and are now firmly embedded in the culture of local schools. The programme works in partnership with the National Waterfront Museum and the teacher training college at Trinity St David’s, all based in Swansea.
-        </p>
-        <p>
-          St Thomas’s Community School first took part in 2016, sending two reception classes to the museum for five weeks each — the first time lessons had taken place outside the classroom.
-        </p>
-        <p>
-          Teachers quickly noted improvements in children’s language skills, self-confidence and social engagement.
-        </p>
-        <p>
-          With interpretation provided bilingually, the museum supports the development of both Welsh and English. Storytelling across the curriculum comes to life in a setting rich with science, engineering, social history, poetry and art.
-        </p>
-        <a href="gallery-wales.html" class="btn-pill btn-red-outline">View gallery →</a>
-        <a href="case-studies-wales.html" class="btn-pill btn-red-outline">View Case Studies →</a>
+        </div>
+
       </div>
 
     </div>
-  </div>
-</section>
 
-        <!-- CTA BOX -->
-        <section>
-        <div class="container">
-            <div class="cta-box">
-            <h3>Want to bring MPSM to your museum or school?</h3>
-            <p>
-                We provide the framework, research and support needed to launch
-                successful museum-school residencies anywhere in the world.
-            </p>
-            <a href="#" class="btn btn-info mr-2">Contact us</a>
-            <a href="#" class="btn btn-secondary">View toolkit</a>
-            </div>
-        </div>
-        </section>
+  </footer>
 
-        <!-- Footer -->
-        <section class="cta-section text-center py-5">
-            <div class="container">
-                <h3 class="mb-4">
-                    Join us in shaping the future of primary education,
-                    one museum residency at a time.
-                </h3>
+  <script>
+    document.getElementById("copyright-year").textContent =
+      new Date().getFullYear();
+  </script>
 
-                <a href="#" class="btn-pill btn-white-solid">
-                    Contact us
-                </a>
-            </div>
-        </section>
-
-    </main>
 </body>
 
 
