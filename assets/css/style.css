@@ -1170,6 +1170,101 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+
+/* ===== SCOTLAND CASE STUDIES ===== */
+
+.scotland-case-studies-hero {
+    background: var(--faded-scotland-purple);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.scotland-case-studies-hero h1 {
+    font-weight: 700;
+}
+
+.scotland-case-studies-hero h1 span {
+    color: var(--purple);
+}
+
+.scotland-case-studies-hero p {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #555;
+}
+
+.scotland-case-studies .case-study-placeholder {
+    background: var(--faded-scotland-purple);
+    color: var(--purple);
+}
+
+.scotland-case-studies .case-study-card-tag {
+    color: var(--purple);
+}
+
+.scotland-case-studies .case-study-quote {
+    background: var(--purple);
+    color: #ffffff;
+}
+
+.scotland-case-studies .case-study-quote p,
+.scotland-case-studies .case-study-quote cite {
+    color: #ffffff;
+}
+
+.scotland-case-studies .case-study-theme i,
+.scotland-case-studies .case-study-pdf-link i {
+    color: var(--purple);
+}
+
+.scotland-case-studies .case-study-modal .modal-header {
+    border-bottom-color: var(--faded-scotland-purple);
+}
+
+.scotland-case-studies .case-study-modal .modal-title,
+.scotland-case-studies .case-study-modal .modal-body h3 {
+    color: var(--purple);
+}
+
+@media (max-width: 767px) {
+    .scotland-case-studies-hero {
+        padding: 60px 0;
+    }
+}
+
+/* ===== FORCE SCOTLAND CASE STUDY COLOURS ===== */
+
+.scotland-case-studies .case-study-card .case-study-card-tag {
+    color: var(--purple) !important;
+}
+
+.scotland-case-studies .case-study-quote {
+    background: var(--purple) !important;
+    background-color: var(--purple) !important;
+}
+
+.scotland-case-studies .case-study-quote p,
+.scotland-case-studies .case-study-quote cite {
+    color: #ffffff !important;
+}
+
+.scotland-case-studies .case-study-modal .modal-header .case-study-card-tag,
+.scotland-case-studies .case-study-modal .modal-title,
+.scotland-case-studies .case-study-modal .modal-body h3 {
+    color: var(--purple) !important;
+}
+
+.scotland-case-studies .case-study-modal .modal-header {
+    border-bottom-color: var(--faded-scotland-purple) !important;
+}
+
+.scotland-case-studies .case-study-theme i,
+.scotland-case-studies .case-study-pdf-link i {
+    color: var(--purple) !important;
+}
+
+
 /* ========== ABOUT PAGE ========== */
 
 /* ===== ABOUT HERO ===== */
