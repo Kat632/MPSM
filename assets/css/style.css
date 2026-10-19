@@ -1265,6 +1265,100 @@ h1, h2, h3, h4, h5 {
 }
 
 
+/* ===== WALES CASE STUDIES ===== */
+
+.wales-case-studies-hero {
+    background: var(--faded-wales-red);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.wales-case-studies-hero h1 {
+    font-weight: 700;
+}
+
+.wales-case-studies-hero h1 span {
+    color: var(--red);
+}
+
+.wales-case-studies-hero p {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #555;
+}
+
+.wales-case-studies .case-study-placeholder {
+    background: var(--faded-wales-red);
+    color: var(--red);
+}
+
+.wales-case-studies .case-study-card-tag {
+    color: var(--red);
+}
+
+.wales-case-studies .case-study-quote {
+    background: var(--red);
+    color: #ffffff;
+}
+
+.wales-case-studies .case-study-quote p,
+.wales-case-studies .case-study-quote cite {
+    color: #ffffff;
+}
+
+.wales-case-studies .case-study-theme i,
+.wales-case-studies .case-study-pdf-link i {
+    color: var(--red);
+}
+
+.wales-case-studies .case-study-modal .modal-header {
+    border-bottom-color: var(--faded-wales-red);
+}
+
+.wales-case-studies .case-study-modal .modal-title,
+.wales-case-studies .case-study-modal .modal-body h3 {
+    color: var(--red);
+}
+
+@media (max-width: 767px) {
+    .wales-case-studies-hero {
+        padding: 60px 0;
+    }
+}
+
+/* ===== FORCE WALES CASE STUDY COLOURS ===== */
+
+.wales-case-studies .case-study-card .case-study-card-tag {
+    color: var(--red) !important;
+}
+
+.wales-case-studies .case-study-quote {
+    background: var(--red) !important;
+    background-color: var(--red) !important;
+}
+
+.wales-case-studies .case-study-quote p,
+.wales-case-studies .case-study-quote cite {
+    color: #ffffff !important;
+}
+
+.wales-case-studies .case-study-modal .modal-header .case-study-card-tag,
+.wales-case-studies .case-study-modal .modal-title,
+.wales-case-studies .case-study-modal .modal-body h3 {
+    color: var(--red) !important;
+}
+
+.wales-case-studies .case-study-modal .modal-header {
+    border-bottom-color: var(--faded-wales-red) !important;
+}
+
+.wales-case-studies .case-study-theme i,
+.wales-case-studies .case-study-pdf-link i {
+    color: var(--red) !important;
+}
+
+
 /* ========== ABOUT PAGE ========== */
 
 /* ===== ABOUT HERO ===== */
