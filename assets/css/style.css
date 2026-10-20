@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5 {
     color: var(--teal);
 }
 
-/* ORANE */
+/* ORANGE */
 .btn-orange-solid {
     background: var(--light-orange);
     color: #fff;
@@ -1752,6 +1752,182 @@ background: #999;
     font-size: 1.8rem;
 }
 
+}
+
+/* ========== PUBLICATIONS PAGE ========== */
+
+/* Collection navigation cards */
+.publication-nav-card {
+    border-top: 4px solid transparent;
+}
+
+.academic-papers-card {
+    border-top-color: var(--teal);
+}
+
+.reports-card {
+    border-top-color: var(--purple);
+}
+
+.toolkits-card {
+    border-top-color: var(--green);
+}
+
+.reference-documents-card {
+    border-top-color: var(--pinky-red);
+}
+
+/* Collection icons */
+.academic-papers-card .feature-icon {
+    color: var(--teal);
+}
+
+.reports-card .feature-icon {
+    color: var(--purple);
+}
+
+.toolkits-card .feature-icon {
+    color: var(--green);
+}
+
+.reference-documents-card .feature-icon {
+    color: var(--pinky-red);
+}
+
+
+/* Academic Papers PDF cards */
+.academic-paper-card{
+    border: none;
+    border-radius: 12px;
+    padding: 25px;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.academic-paper-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.academic-paper-card h3 {
+    color: var(--teal);
+}
+
+
+.academic-paper-card .paper-authors {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+
+/* Reports section */
+.reports-section .feature-icon {
+    color: var(--purple);
+}
+
+/* Reports section PDF cards */
+.report-card{
+    border: none;
+    border-radius: 12px;
+    padding: 25px;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.report-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.report-card h3 {
+    color: var(--purple);
+}
+
+
+.report-card .paper-authors {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+/* ========== REPORTS SECTION BACKGROUND IMAGE ========== */
+.reports-section {
+    position: relative;
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.84),
+            rgba(255, 255, 255, 0.84)
+        ),
+        url('../images/cambridge/IMG_0142.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0 !important;
+}
+
+/* Toolkit section PDF cards */
+.toolkit-card{
+    border: none;
+    border-radius: 12px;
+    padding: 25px;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.toolkit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.toolkit-card h3 {
+    color: var(--green);
+}
+
+.toolkit-card .paper-authors {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.toolkit-section .feature-icon {
+    color: var(--green);
+}
+
+/* Reference Documents section PDF cards */
+.reference-card{
+    border: none;
+    border-radius: 12px;
+    padding: 25px;
+    height: 100%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.reference-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.reference-card h3 {
+    color: var(--pinky-red);
+}
+
+.reference-card .paper-authors {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.reference-section .feature-icon {
+    color: var(--pinky-red);
 }
 
 /* FOOTER */
