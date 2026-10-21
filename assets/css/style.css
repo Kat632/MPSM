@@ -1930,6 +1930,46 @@ background: #999;
     color: var(--pinky-red);
 }
 
+
+
+
+/* ===== NEWS HERO ===== */
+
+.news-hero {
+    background: var(--beige);
+    padding: 90px 0 75px;
+    text-align: center;
+}
+
+.news-eyebrow {
+    margin-bottom: 12px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--orange);
+}
+
+.news-hero h1 {
+    margin-bottom: 25px;
+    font-size: 4rem;
+    line-height: 1.05;
+}
+
+.news-hero h1 span {
+    color: var(--orange);
+}
+
+.news-hero-intro {
+    max-width: 720px;
+    margin: 0 auto;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+
+
 /* FOOTER */
 
 .site-footer {
