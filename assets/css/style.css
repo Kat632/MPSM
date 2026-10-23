@@ -453,20 +453,20 @@ h1, h2, h3, h4, h5 {
     }
 
     /* General Gallery Styles */
-    .wales-gallery-hero h1
-    .england-gallery-hero h1
-    .scotland-gallery-hero h1
-    .roi-gallery-hero h1
-    .norway-gallery-hero h1
+    .wales-gallery-hero h1,
+    .england-gallery-hero h1,
+    .scotland-gallery-hero h1,
+    .roi-gallery-hero h1,
+    .norway-gallery-hero h1,
     .germany-gallery-hero h1 {
       font-weight: 700;
     }
 
-    .wales-gallery-hero p
-    .england-gallery-hero p
-    .scotland-gallery-hero p
-    .roi-gallery-hero p
-    .norway-gallery-hero p
+    .wales-gallery-hero p,
+    .england-gallery-hero p,
+    .scotland-gallery-hero p,
+    .roi-gallery-hero p,
+    .norway-gallery-hero p,
     .germany-gallery-hero p {
       max-width: 600px;
       margin: 20px auto 0;
@@ -1082,6 +1082,22 @@ h1, h2, h3, h4, h5 {
         padding: 60px 0;
     }
 
+}
+
+/* ===== GERMANY MODAL COLOURS ===== */
+
+.germany-case-study-modal .modal-header {
+    border-bottom-color: var(--faded-germany-orange) !important;
+}
+
+.germany-case-study-modal .case-study-card-tag,
+.germany-case-study-modal .modal-title,
+.germany-case-study-modal .modal-body h3 {
+    color: var(--light-orange) !important;
+}
+
+.germany-case-study-modal blockquote {
+    background: var(--faded-germany-orange);
 }
 
 /* ========================================
