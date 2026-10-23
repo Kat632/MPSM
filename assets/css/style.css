@@ -967,6 +967,122 @@ h1, h2, h3, h4, h5 {
     color: var(--green) !important;
 }
 
+/* ===== GERMANY CASE STUDIES ===== */
+
+.germany-case-studies-hero {
+    background: var(--faded-germany-orange);
+    padding: 80px 0;
+    text-align: center;
+}
+
+.germany-case-studies-hero h1 {
+    font-weight: 700;
+}
+
+.germany-case-studies-hero h1 span {
+    color: var(--light-orange);
+}
+
+.germany-case-studies-hero p {
+    max-width: 700px;
+    margin: 20px auto 0;
+    color: #555;
+}
+
+
+/* ===== GERMANY CASE STUDY COLOURS ===== */
+
+.germany-case-studies .case-study-placeholder {
+    background: var(--faded-germany-orange);
+    color: var(--light-orange);
+}
+
+.germany-case-studies .case-study-card-tag {
+    color: var(--light-orange);
+}
+
+.germany-case-studies .case-study-quote {
+    background: var(--light-orange);
+    color: #ffffff;
+}
+
+.germany-case-studies .case-study-quote p,
+.germany-case-studies .case-study-quote cite {
+    color: #ffffff;
+}
+
+.germany-case-studies .case-study-theme i,
+.germany-case-studies .case-study-pdf-link i {
+    color: var(--light-orange);
+}
+
+.germany-case-studies .case-study-modal .modal-header {
+    border-bottom-color: var(--faded-germany-orange);
+}
+
+.germany-case-studies .case-study-modal .modal-title,
+.germany-case-studies .case-study-modal .modal-body h3 {
+    color: var(--light-orange);
+}
+
+
+/* ===== GERMANY CASE STUDY MODAL BLOCKQUOTES ===== */
+
+.germany-case-studies .case-study-modal blockquote {
+    background: var(--faded-germany-orange);
+    color: #333;
+}
+
+
+/* ===== GERMANY FEATURE PLACEHOLDER ===== */
+
+.germany-feature-placeholder {
+    min-height: 320px;
+    height: 100%;
+}
+
+
+/* ===== FORCE GERMANY CASE STUDY COLOURS ===== */
+
+.germany-case-studies .case-study-card .case-study-card-tag {
+    color: var(--light-orange) !important;
+}
+
+.germany-case-studies .case-study-quote {
+    background: var(--light-orange) !important;
+    background-color: var(--light-orange) !important;
+}
+
+.germany-case-studies .case-study-quote p,
+.germany-case-studies .case-study-quote cite {
+    color: #ffffff !important;
+}
+
+.germany-case-studies .case-study-modal .modal-header .case-study-card-tag,
+.germany-case-studies .case-study-modal .modal-title,
+.germany-case-studies .case-study-modal .modal-body h3 {
+    color: var(--light-orange) !important;
+}
+
+.germany-case-studies .case-study-modal .modal-header {
+    border-bottom-color: var(--faded-germany-orange) !important;
+}
+
+.germany-case-studies .case-study-theme i,
+.germany-case-studies .case-study-pdf-link i {
+    color: var(--light-orange) !important;
+}
+
+
+/* ===== GERMANY CASE STUDY MOBILE ===== */
+
+@media (max-width: 767px) {
+
+    .germany-case-studies-hero {
+        padding: 60px 0;
+    }
+
+}
 
 /* ========================================
    NORWAY CASE STUDY
