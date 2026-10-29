@@ -1695,7 +1695,7 @@
 
   </main>
 
-  <!-- FOOTER -->
+    <!-- FOOTER -->
   <footer class="site-footer mt-4">
 
     <div class="container">
@@ -1713,33 +1713,21 @@
 
         </div>
 
-        <div class="col-md-6 text-md-right">
+        <div class="col-md-6">
 
           <h4>
             Explore MPSM
           </h4>
-
-          <p class="footer-links">
+          
+        <p class="footer-links">
             <a href="index.html">Home</a>
-            <br>
-
             <a href="about.html">About</a>
-            <br>
-
             <a href="how-we-do-it.html">How We Do It</a>
-            <br>
-
             <a href="projects.html">Projects</a>
-            <br>
-
             <a href="publications.html">Publications</a>
-            <br>
-
             <a href="news.html">News</a>
-            <br>
-
             <a href="contact.html">Contact</a>
-          </p>
+        </p>
 
         </div>
 
@@ -1766,6 +1754,33 @@
   <script>
     document.getElementById("copyright-year").textContent =
       new Date().getFullYear();
+
+    document.addEventListener("DOMContentLoaded", function () {
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+    document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
+        const linkPage = link.getAttribute("href").split("/").pop();
+
+        if (linkPage === currentPage) {
+            link.classList.add("active");
+            link.setAttribute("aria-current", "page");
+        }
+    });
+});
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+        document.querySelectorAll(".footer-links a").forEach(function (link) {
+            const linkPage = link.getAttribute("href").split("/").pop();
+
+            if (linkPage === currentPage) {
+                link.classList.add("active");
+                link.setAttribute("aria-current", "page");
+            }
+        });
+    });
+
   </script>
 
 </body>

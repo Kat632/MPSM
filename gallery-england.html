@@ -54,7 +54,7 @@
     <!-- imagesLoaded -->
     <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
-    <title>How We Do It | My Primary School is at the Museum (MPSM)</title>
+    <title>England Gallery | My Primary School is at the Museum (MPSM)</title>
 </head>
 
 <body>
@@ -527,22 +527,7 @@
             </div>
         </section>
 
-        <!-- CTA BOX -->
-        <section>
-            <div class="container">
-                <div class="cta-box">
-                    <h3>Want to bring MPSM to your museum or school?</h3>
-                    <p>
-                        We provide the framework, research and support needed to launch
-                        successful museum-school residencies anywhere in the world.
-                    </p>
-                    <a href="#" class="btn btn-info mr-2">Contact us</a>
-                    <a href="#" class="btn btn-secondary">View toolkit</a>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
+        <!-- CTA -->
         <section class="cta-section text-center py-5">
             <div class="container">
                 <h3 class="mb-4">
@@ -550,7 +535,7 @@
                     one museum residency at a time.
                 </h3>
 
-                <a href="#" class="btn-pill btn-white-solid">
+                <a href="#" class="btn-pill btn-orange-outline">
                     Contact us
                 </a>
             </div>
@@ -558,76 +543,96 @@
 
     </main>
 
-    <!-- FOOTER -->
-    <footer class="site-footer mt-4">
+  <!-- FOOTER -->
+  <footer class="site-footer mt-4">
 
-        <div class="container">
+    <div class="container">
 
-            <div class="row">
+      <div class="row">
 
-                <div class="col-md-6 mb-4 mb-md-0">
+        <div class="col-md-6 mb-4 mb-md-0">
 
-                    <img src="assets/images/260203MPSM Logo.jpeg" alt="My Primary School is at the Museum" height="65">
+          <img src="assets/images/260203MPSM Logo.jpeg" alt="My Primary School is at the Museum" height="65">
 
-                    <p class="footer-tagline mt-3">
-                        Transforming education through long-term partnerships
-                        between primary schools and cultural organisations.
-                    </p>
-
-                </div>
-
-                <div class="col-md-6 text-md-right">
-
-                    <h4>
-                        Explore MPSM
-                    </h4>
-
-                    <p class="footer-links">
-                        <a href="index.html">Home</a>
-                        <br>
-
-                        <a href="about.html">About</a>
-                        <br>
-
-                        <a href="how-we-do-it.html">How We Do It</a>
-                        <br>
-
-                        <a href="projects.html">Projects</a>
-                        <br>
-
-                        <a href="publications.html">Publications</a>
-                        <br>
-
-                        <a href="news.html">News</a>
-                        <br>
-
-                        <a href="contact.html">Contact</a>
-                    </p>
-
-                </div>
-
-            </div>
-
-            <hr>
-
-            <div class="row">
-
-                <div class="col-12 text-center">
-
-                    <p class="mb-0">
-                        &copy; <span id="copyright-year"></span> My Primary School is at the Museum
-                    </p>
-
-                </div>
-
-            </div>
+          <p class="footer-tagline mt-3">
+            Transforming education through long-term partnerships
+            between primary schools and cultural organisations.
+          </p>
 
         </div>
 
-    </footer>
+        <div class="col-md-6">
 
-    <!-- JavaScript -->
-    <script>
+          <h4>
+            Explore MPSM
+          </h4>
+          
+        <p class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="how-we-do-it.html">How We Do It</a>
+            <a href="projects.html">Projects</a>
+            <a href="publications.html">Publications</a>
+            <a href="news.html">News</a>
+            <a href="contact.html">Contact</a>
+        </p>
+
+        </div>
+
+      </div>
+
+      <hr>
+
+      <div class="row">
+
+        <div class="col-12 text-center">
+
+          <p class="mb-0">
+            &copy; <span id="copyright-year"></span> My Primary School is at the Museum
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script>
+    document.getElementById("copyright-year").textContent =
+      new Date().getFullYear();
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+    const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+    document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
+        const linkPage = link.getAttribute("href").split("/").pop();
+
+        if (linkPage === currentPage) {
+            link.classList.add("active");
+            link.setAttribute("aria-current", "page");
+        }
+    });
+});
+
+    document.addEventListener("DOMContentLoaded", function () {
+        const currentPage = window.location.pathname.split("/").pop() || "index.html";
+
+        document.querySelectorAll(".footer-links a").forEach(function (link) {
+            const linkPage = link.getAttribute("href").split("/").pop();
+
+            if (linkPage === currentPage) {
+                link.classList.add("active");
+                link.setAttribute("aria-current", "page");
+            }
+        });
+    });
+
+  </script>
+
+      <script>
         $(document).ready(function () {
 
             var $grid = $('.gallery-grid');
@@ -652,11 +657,6 @@
             });
 
         });
-    </script>
-
-    <script>
-        document.getElementById("copyright-year").textContent =
-            new Date().getFullYear();
     </script>
 
 </body>
