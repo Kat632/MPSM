@@ -276,11 +276,6 @@ h1, h2, h3, h4, h5 {
     color: var(--teal);
 }
 
-.read-more {
-    font-size: 0.9rem;
-    color: var(--teal);
-}
-
 /* PROJECTS */
 .project-card {
     background: #fff;
@@ -288,6 +283,17 @@ h1, h2, h3, h4, h5 {
     border-radius: 12px;
     padding: 25px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+}
+
+.project-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-card-link:hover {
+    text-decoration: none;
+    color: inherit;
 }
 
 .dot {
