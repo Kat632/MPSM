@@ -2166,22 +2166,6 @@ color: #555;
     border-top: 4px solid transparent;
 }
 
-.academic-papers-card {
-    border-top-color: var(--teal);
-}
-
-.reports-card {
-    border-top-color: var(--purple);
-}
-
-.toolkits-card {
-    border-top-color: var(--green);
-}
-
-.reference-documents-card {
-    border-top-color: var(--pinky-red);
-}
-
 /* Collection icons */
 .academic-papers-card .feature-icon {
     color: var(--teal);
