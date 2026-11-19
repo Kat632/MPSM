@@ -131,7 +131,11 @@
         </p>
 
         <a href="contact.html" class="btn-pill btn-teal-solid mr-3">Join Our Mission</a>
-        <a href="#" class="btn-pill btn-teal-outline">Download Overview</a>
+        <a href="#" class="btn-pill btn-teal-outline"
+          data-toggle="modal"
+          data-target="#kclReport2018Modal">
+            Download Overview
+        </a>
 
       </div>
     </section>
@@ -292,7 +296,7 @@
           one museum residency at a time.
         </h3>
 
-        <a href="contact.html" class="btn-pill btn-pinky-red-solid">
+        <a href="contact.html" class="btn-pill btn-white-solid">
           Contact us
         </a>
       </div>
@@ -388,6 +392,82 @@
     });
 
   </script>
+
+        <!-- REPORT 3 MODAL: KCL MPSM REPORT 2018 -->
+        <div class="modal fade" id="kclReport2018Modal" tabindex="-1" role="dialog"
+            aria-labelledby="kclReport2018ModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+                <div class="modal-content">
+
+                    <!-- MODAL HEADER -->
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="kclReport2018ModalLabel">
+                            King's College London MPSM Report 2018
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+
+                    <!-- MODAL BODY -->
+                    <div class="modal-body">
+
+                        <div class="row publication-modal-info mb-4">
+
+                            <div class="col-md-3 text-center mb-3 mb-md-0">
+                                <img src="assets/images/kcl-logo.svg"
+                                    alt="King's College London"
+                                    class="publication-modal-logo img-fluid">
+                            </div>
+
+                            <div class="col-md-9">
+                                <h3>King's College London MPSM Report 2018</h3>
+
+                                <p class="paper-authors">
+                                    King's College London · 2018
+                                </p>
+
+                                <p>
+                                    This report evaluates My Primary School is at the
+                                    Museum through three partnerships: Arbeia Roman
+                                    Fort & Museum and Hadrian Primary School in South
+                                    Shields; Tate Liverpool and Life Bank Nursery at
+                                    Kensington Children's Centre in Liverpool; and
+                                    the National Waterfront Museum and St Thomas
+                                    Community Primary School in Swansea.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <!-- PDF VIEWER -->
+                        <iframe
+                            src="assets/reports/Kings College London MPSM Summary report2018 .pdf"
+                            class="publication-pdf-viewer"
+                            title="King's College London MPSM Report 2018"
+                            width="100%"
+                            height="650px">
+                        </iframe>
+
+                    </div>
+
+                    <!-- MODAL FOOTER -->
+                    <div class="modal-footer">
+                        <a href="assets/reports/Kings College London MPSM Summary report2018 .pdf"
+                            class="btn-pill btn-teal-outline"
+                            target="_blank" rel="noopener">
+                            Open PDF in new tab
+                        </a>
+
+                        <button type="button" class="btn-pill btn-teal-outline"
+                            data-dismiss="modal">
+                            Close
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
 </body>
 

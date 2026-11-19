@@ -1,0 +1,252 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is E47E-928B
+C:.
+|   about.html
+|   case-studies-england.html
+|   case-studies-germany.html
+|   case-studies-norway.html
+|   case-studies-roi.html
+|   case-studies-scotland.html
+|   case-studies-wales.html
+|   contact.html
+|   folder-structure.txt
+|   gallery-england.html
+|   gallery-germany.html
+|   gallery-norway.html
+|   gallery-roi.html
+|   gallery-scotland.html
+|   gallery-wales.html
+|   how-we-do-it.html
+|   index.html
+|   news.html
+|   projects.html
+|   publications.html
+|   README.md
+|   
+\---assets
+    +---academic-papers
+    |       DublinPG_SUM_2024_AUSTIN published pdf.pdf
+    |       Heritage Insider Final Assessment Report MPSM for KCL_2020.pdf
+    |       Jen de Witt UCL _Heather King_ KCL_ Denise Wright Edge Hill_ Kate Measures Heritage Insider 2018 Potential of Extended Cultural Residencies.pdf
+    |       KCL Research report My Primary School is at the Museum 2017.pdf
+    |       UniversityCambridgeMuseums Nursery in Residence(MPSM) Report 2018.pdf
+    |       
+    +---case-studies
+    |       BergenNORWAY_MUS_Eng.pdf
+    |       CambridgeUniversityBotanicGarden Nursery In Residence presentation 2018_19.pdf
+    |       Dublin My Primary School is at the National Gallery2024_25pdf.pdf
+    |       Hamburg-MPSM 2020+.pdf
+    |       Lingfield Class in Residence case study 2019.pdf
+    |       South Shields 2016.pdf
+    |       Swansea 2016.pdf
+    |       Tate Liverpool Case Study 2016 .pdf
+    |       V&ADundeeMPSM Schoolseum Report 2025.pdf
+    |       
+    +---css
+    |       style.css
+    |       
+    +---images
+    |   |   260203MPSM Logo.jpeg
+    |   |   7_DSC4456_resize.jpg
+    |   |   crest-and-shield.jpg
+    |   |   HI-simplified-logo.png
+    |   |   IMG_0118.JPG
+    |   |   IMG_0132.JPG
+    |   |   IMG_0142.JPG
+    |   |   IMG_0238.JPG
+    |   |   IMG_0366.JPG
+    |   |   IMG_2642.JPG
+    |   |   kcl-logo.svg
+    |   |   mie_web_logo.png
+    |   |   museums-association-2.png
+    |   |   rs=w_365,h_365,cg_true.webp
+    |   |   tcd_logo_colour.png
+    |   |   Thore-Garbers-Wendy-James-NY-1.jpg
+    |   |   ucl-logo--primary.svg
+    |   |   UoC_Museums_and_Bot._logo.jpg
+    |   |   
+    |   +---arbeia
+    |   |       1.0 South Tyneside-20150826-01305.jpg
+    |   |       4.0 May15.JPG
+    |   |       5.0 The Commanding Officer's House.jpg
+    |   |       6.0 South Tyneside-20150826-01280.jpg
+    |   |       7.0 _DSC4456_resize.jpg
+    |   |       8.0 IMG_0196.JPG
+    |   |       
+    |   +---bergen
+    |   |       2.0fullsizeoutput_e82.jpeg
+    |   |       3.0IMG_3121.JPG
+    |   |       4.0IMG_3120.JPG
+    |   |       IMG_3101.JPG
+    |   |       IMG_3109.JPG
+    |   |       IMG_3115.JPG
+    |   |       
+    |   +---cambridge
+    |   |       fitzEY2.JPG
+    |   |       fitzey3.JPG
+    |   |       IMG_0118.JPG
+    |   |       IMG_0119.JPG
+    |   |       IMG_0132.JPG
+    |   |       IMG_0142.JPG
+    |   |       IMG_0143.JPG
+    |   |       IMG_0148.JPG
+    |   |       IMG_0158.JPG
+    |   |       IMG_0209.JPG
+    |   |       IMG_0215.JPG
+    |   |       IMG_0238.JPG
+    |   |       IMG_0252.JPG
+    |   |       IMG_0258.JPG
+    |   |       IMG_0305.JPG
+    |   |       IMG_0328.JPG
+    |   |       IMG_0360.JPG
+    |   |       IMG_0366.JPG
+    |   |       IMG_0379.JPG
+    |   |       IMG_2468.JPG
+    |   |       IMG_2480.JPG
+    |   |       IMG_2642.JPG
+    |   |       
+    |   +---dundee
+    |   |       1000002856.jpg
+    |   |       1000002874.jpg
+    |   |       1000002887.jpg
+    |   |       1000002893.jpg
+    |   |       1000002900.jpg
+    |   |       1000002917.jpg
+    |   |       1000002918.jpg
+    |   |       1000002924.jpg
+    |   |       image-1-v&adundee-2025.JPG
+    |   |       image-10-v&adundee-2025.JPG
+    |   |       image-11-v&adundee-2025.JPG
+    |   |       image-12-v&adundee-2025.JPG
+    |   |       image-13-v&adundee-2025.JPG
+    |   |       image-14-v&adundee-2025.JPG
+    |   |       image-15-v&adundee-2025.JPG
+    |   |       image-16-v&adundee-2025.JPG
+    |   |       image-17-v&adundee-2025.JPG
+    |   |       image-18-v&adundee-2025.JPG
+    |   |       image-19-v&adundee-2025.JPG
+    |   |       image-2-v&adundee-2025.JPG
+    |   |       image-20-v&adundee-2025.JPG
+    |   |       image-21-v&adundee-2025.MP4
+    |   |       image-22-v&adundee-2025.JPG
+    |   |       image-23-v&adundee-2025.JPG
+    |   |       image-24-v&adundee-2025.JPG
+    |   |       image-25-v&adundee-2025.JPG
+    |   |       image-26-v&adundee-2025.JPG
+    |   |       image-27-v&adundee-2025.JPG
+    |   |       image-28-v&adundee-2025.JPG
+    |   |       image-29-v&adundee-2025.JPG
+    |   |       image-3-v&adundee-2025.JPG
+    |   |       image-30-v&adundee-2025.JPG
+    |   |       image-31-v&adundee-2025.JPG
+    |   |       image-32-v&adundee-2025.MP4
+    |   |       image-33-v&adundee-2025.JPG
+    |   |       image-34-v&adundee-2025.JPG
+    |   |       image-35-v&adundee-2025.JPG
+    |   |       image-36-v&adundee-2025.JPG
+    |   |       image-37-v&adundee-2025.JPG
+    |   |       image-38-v&adundee-2025.JPG
+    |   |       image-39-v&adundee-2025.JPG
+    |   |       image-4-v&adundee-2025.JPG
+    |   |       image-40-v&adundee-2025.JPG
+    |   |       image-41-v&adundee-2025.JPG
+    |   |       image-42-v&adundee-2025.JPG
+    |   |       image-43-v&adundee-2025.JPG
+    |   |       image-44-v&adundee-2025.JPG
+    |   |       image-45-v&adundee-2025.JPG
+    |   |       image-46-v&adundee-2025.JPG
+    |   |       image-47-v&adundee-2025.JPG
+    |   |       image-48-v&adundee-2025.JPG
+    |   |       image-49-v&adundee-2025.JPG
+    |   |       image-5-v&adundee-2025.JPG
+    |   |       image-50-v&adundee-2025.JPG
+    |   |       image-51-v&adundee-2025.JPG
+    |   |       image-52-v&adundee-2025.JPG
+    |   |       image-6-v&adundee-2025.JPG
+    |   |       image-7-v&adundee-2025.JPG
+    |   |       image-8-v&adundee-2025.JPG
+    |   |       image-9-v&adundee-2025.JPG
+    |   |       
+    |   +---hamburg
+    |   |       Foto 07.06.21.jpg
+    |   |       Foto 11.06.21 (2).jpg
+    |   |       Foto 11.06.21.jpg
+    |   |       Foto 15.01.21.jpg
+    |   |       Foto 16.04.21.jpg
+    |   |       Foto 21.06.21.jpg
+    |   |       Foto 22.02.21 (2).jpg
+    |   |       Foto 22.02.21 (3).jpg
+    |   |       Foto 22.02.21.jpg
+    |   |       Foto 22.03.21.jpg
+    |   |       IMG_20201214_102820.jpg
+    |   |       IMG_20201214_115441_1.jpg
+    |   |       IMG_20210111_105655.jpg
+    |   |       IMG_20210114_101528.jpg
+    |   |       Mein Kiekeberg - Plakat 2.jpg
+    |   |       Schulweg.jpg
+    |   |       
+    |   +---lingfield
+    |   |       lingfield-primary.jpg
+    |   |       
+    |   +---liverpool
+    |   |       MPS frida-30.jpg
+    |   |       MPS mon2-22.jpg
+    |   |       
+    |   \---swansea
+    |           IMG_1156.JPG
+    |           IMG_1157.JPG
+    |           WNS_230616_Waterfront_Schools.JPG
+    |           WNS_230616_Waterfront_Schools_102.JPG
+    |           WNS_230616_Waterfront_Schools_105.JPG
+    |           WNS_230616_Waterfront_Schools_106.JPG
+    |           WNS_230616_Waterfront_Schools_27.JPG
+    |           WNS_230616_Waterfront_Schools_39.JPG
+    |           WNS_230616_Waterfront_Schools_42.JPG
+    |           WNS_230616_Waterfront_Schools_48.JPG
+    |           WNS_230616_Waterfront_Schools_57.JPG
+    |           WNS_230616_Waterfront_Schools_67.JPG
+    |           WNS_230616_Waterfront_Schools_76.JPG
+    |           WNS_230616_Waterfront_Schools_83.JPG
+    |           WNS_230616_Waterfront_Schools_86.JPG
+    |           WNS_230616_Waterfront_Schools_89.JPG
+    |           WNS_230616_Waterfront_Schools_97.JPG
+    |           WNS_230616_Waterfront_Schools_99.JPG
+    |           
+    +---news
+    |       KCL Blog“My Primary School is at the Museum ” pdf.pdf
+    |       MPSM_museumszeit_2025_James .pdf
+    |       
+    +---reference-documents
+    |       Arts and Education Network The-Secret-Life-of-Objects 2017.pdf
+    |       DCMS_The_Culture_White_Paper__2016.pdf
+    |       DurhamCommission Report on Creativity and Education 2019 .pdf
+    |       Heritage Alliance InspiringCreativity_THAreport 2020 .pdf
+    |       ImagineNation_The_Case_for_Cultural_Learning_Alliance 2020 pdf.pdf
+    |       Leuven Scale of Engagement .pdf
+    |       MPSM_Cultural Education for Governors - WEB 2020.pdf
+    |       MuseumsAssociationlearning-and-engagement-manifesto.pdf
+    |       Publications- Parliament Transforming Education outside the Classroom 2010 .pdf
+    |       Warwick Commission_enriching_britain_-_culture_creativity_and_growth 2015.pdf
+    |       
+    +---reports
+    |       Kings College London MPSM Summary report2018 .pdf
+    |       MPSM KCL Museum-School Forum report 7 Mar 2017.pdf
+    |       Museums Association _ MPSM-museums-change-lives .pdf
+    |       Sustainability Resilience Strategy for Provision During Covid.pdf
+    |       WJ _ G&J Vision 2015.pdf
+    |       WJ_G&J King's Cultural Institute_Creative Futures Programme - Working Document REV C 2014.pdf
+    |       WJ_G&J Thoughts & Inspirations 2013.pdf
+    |       WJ_G&J Vision Statement _ Program Content 2013.pdf
+    |       
+    \---toolkits
+            Heritage Insider Bringing-the-curriculum-to-life-through-a-cultural-residency 2020 pdf.pdf
+            Heritage Insider Curriculum-Opps-spidergraph-2020.pdf
+            Heritage Insider Forming-Great-museum-school-partnerships 2020.pdf
+            Heritage Insider Hosting-a-Cultural-Residency 2020.pdf
+            Heritage InsiderHow-cultural-residencies-make-a-difference 2020pdf.pdf
+            Heritage InsiderImpact-Venn-Diagram 2020jpg.jpg
+            Heritage InsiderPartnership Planning Flowchart 2020.jpg
+            Recs for future MPSM residencies 2016.pdf
+            WJ G&J.MPSM Self Assessment Questions - for Museums or Cultural Setting May 2019 .pdf
+            WJ.G&JMPSM Self Assessment Schools May 2019 .pdf
+            

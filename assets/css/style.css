@@ -1961,25 +1961,17 @@ color: var(--purple);
 }
 
 .about-pilot-card {
-height: 100%;
-padding: 35px 30px;
-border-radius: 12px;
-background: #fff;
-border-top: 7px solid;
+    height: 100%;
+    padding: 35px 30px;
+    border-radius: 12px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
-/*
-.about-pilot-red {
-border-color: var(--pinky-red);
-}
-
-.about-pilot-teal {
-border-color: var(--red);
-}
-*/
-
-.about-pilot-purple {
-border-color: var(--light-orange);
+.about-pilot-card a {
+    margin-top: auto;
+    align-self: flex-start;
 }
 
 .about-pilot-location {
