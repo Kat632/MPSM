@@ -2117,8 +2117,6 @@ background: #999;
 }
 
 /* ========== PUBLICATIONS PAGE ========== */
-
-/* ===== ABOUT HERO ===== */
 .publications-hero {
 background: var(--faded-wales-red);
 padding: 90px 0 75px;
@@ -2176,8 +2174,11 @@ color: #555;
 }
 
 
-/* Academic Papers PDF cards */
-.academic-paper-card{
+/* Publications PDF cards - shared styling */
+.academic-paper-card,
+.report-card,
+.toolkit-card,
+.reference-card {
     border: none;
     border-radius: 12px;
     padding: 25px;
@@ -2186,150 +2187,35 @@ color: #555;
     transition: 0.3s ease;
 }
 
-.academic-paper-card:hover {
+.academic-paper-card:hover,
+.report-card:hover,
+.toolkit-card:hover,
+.reference-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
+/* Individual card heading colours */
 .academic-paper-card h3 {
     color: var(--teal);
-}
-
-
-.academic-paper-card .paper-authors {
-    color: #666;
-    font-size: 0.9rem;
-    font-style: italic;
-    margin-bottom: 15px;
-}
-
-
-/* Reports section */
-.reports-section .feature-icon {
-    color: var(--purple);
-}
-
-/* Reports section PDF cards */
-.report-card{
-    border: none;
-    border-radius: 12px;
-    padding: 25px;
-    height: 100%;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    transition: 0.3s ease;
-}
-
-.report-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 .report-card h3 {
     color: var(--purple);
 }
 
-
-.report-card .paper-authors {
-    color: #666;
-    font-size: 0.9rem;
-    font-style: italic;
-    margin-bottom: 15px;
-}
-
-/* ========== PUBLICATIONS 4-CARDS SECTION BACKGROUND IMAGE ========== */
-.publications-cards-section {
-    position: relative;
-    background-image:
-        linear-gradient(
-            rgba(255, 255, 255, 0.84),
-            rgba(255, 255, 255, 0.84)
-        ),
-        url('../images/arbeia/8.0 IMG_0196.JPG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 80px 0 !important;
-}
-
-/* ========== REPORTS SECTION BACKGROUND IMAGE ========== */
-.reports-section {
-    position: relative;
-    background-image:
-        linear-gradient(
-            rgba(255, 255, 255, 0.84),
-            rgba(255, 255, 255, 0.84)
-        ),
-        url('../images/cambridge/IMG_0142.JPG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 80px 0 !important;
-}
-
-/* ========== REFERENCE SECTION BACKGROUND IMAGE ========== */
-.reference-section-background {
-    position: relative;
-    background-image:
-        linear-gradient(
-            rgba(255, 255, 255, 0.84),
-            rgba(255, 255, 255, 0.84)
-        ),
-        url('../images/swansea/WNS_230616_Waterfront_Schools_83.JPG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 80px 0 !important;
-}
-
-/* Toolkit section PDF cards */
-.toolkit-card{
-    border: none;
-    border-radius: 12px;
-    padding: 25px;
-    height: 100%;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    transition: 0.3s ease;
-}
-
-.toolkit-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-}
-
 .toolkit-card h3 {
     color: var(--green);
-}
-
-.toolkit-card .paper-authors {
-    color: #666;
-    font-size: 0.9rem;
-    font-style: italic;
-    margin-bottom: 15px;
-}
-
-.toolkit-section .feature-icon {
-    color: var(--green);
-}
-
-/* Reference Documents section PDF cards */
-.reference-card{
-    border: none;
-    border-radius: 12px;
-    padding: 25px;
-    height: 100%;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-    transition: 0.3s ease;
-}
-
-.reference-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
 
 .reference-card h3 {
     color: var(--pinky-red);
 }
 
+/* Card author details */
+.academic-paper-card .paper-authors,
+.report-card .paper-authors,
+.toolkit-card .paper-authors,
 .reference-card .paper-authors {
     color: #666;
     font-size: 0.9rem;
@@ -2337,16 +2223,49 @@ color: #555;
     margin-bottom: 15px;
 }
 
-.reference-section .feature-icon {
-    color: var(--pinky-red);
+/* ========== PUBLICATIONS SECTION BACKGROUND IMAGES ========== */
+
+.publications-cards-section,
+.reports-section,
+.reference-section-background {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0 !important;
+}
+
+.publications-cards-section {
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.84),
+            rgba(255, 255, 255, 0.84)
+        ),
+        url('../images/arbeia/8.0 IMG_0196.JPG');
+}
+
+.reports-section {
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.84),
+            rgba(255, 255, 255, 0.84)
+        ),
+        url('../images/cambridge/IMG_0142.JPG');
+}
+
+.reference-section-background {
+    background-image:
+        linear-gradient(
+            rgba(255, 255, 255, 0.84),
+            rgba(255, 255, 255, 0.84)
+        ),
+        url('../images/swansea/WNS_230616_Waterfront_Schools_83.JPG');
 }
 
 .publications-cta-section {
     background: var(--pinky-red);
     color: #fff;
 }
-
-
 
 
 /* ===== NEWS HERO ===== */
@@ -2384,9 +2303,50 @@ color: #555;
     color: #555;
 }
 
+/* ===== NEWS: SHARED CARD STYLING ===== */
+
+.press-card,
+.features-card,
+.practice-section .card {
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.press-card:hover,
+.features-card:hover,
+.practice-section .card:hover {
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
+    transform: translateY(-3px);
+}
+
+.press-card h3,
+.features-card h3,
+.practice-section .card h3 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
+
+.press-card .paper-authors,
+.features-card .paper-authors,
+.practice-section .card .paper-authors {
+    font-size: 0.9rem;
+}
+
+/* Individual card border colours */
+.press-card {
+    border: 1px solid rgba(0, 118, 129, 0.15);
+}
+
+.features-card {
+    border: 1px solid rgba(122, 62, 142, 0.18);
+}
+
+.practice-section .card {
+    border: 1px solid rgba(255, 106, 19, 0.2);
+}
+
 
 /* ===== NEWS: MPSM IN THE PRESS ===== */
-
 .press-section-title {
     color: var(--teal);
 }
@@ -2432,26 +2392,6 @@ color: #555;
     text-transform: uppercase;
 }
 
-.press-card {
-    border: 1px solid rgba(0, 118, 129, 0.15);
-    border-radius: 10px;
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-
-.press-card:hover {
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
-    transform: translateY(-3px);
-}
-
-.press-card h3 {
-    font-size: 1.25rem;
-    line-height: 1.4;
-}
-
-.press-card .paper-authors {
-    font-size: 0.9rem;
-}
-
 @media (max-width: 767.98px) {
     .press-featured {
         padding: 25px;
@@ -2473,26 +2413,6 @@ color: #555;
     color: var(--purple);
 }
 
-.features-card {
-    border: 1px solid rgba(122, 62, 142, 0.18);
-    border-radius: 10px;
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-
-.features-card:hover {
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
-    transform: translateY(-3px);
-}
-
-.features-card h3 {
-    font-size: 1.25rem;
-    line-height: 1.4;
-}
-
-.features-card .paper-authors {
-    font-size: 0.9rem;
-}
-
 .features-card .feature-icon {
     color: var(--purple);
 }
@@ -2500,26 +2420,6 @@ color: #555;
 /* ===== NEWS: MPSM IN PRACTICE ===== */
 .practice-section-title {
     color: var(--orange);
-}
-
-.practice-section .card {
-    border: 1px solid rgba(255, 106, 19, 0.2);
-    border-radius: 10px;
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-
-.practice-section .card:hover {
-    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.08);
-    transform: translateY(-3px);
-}
-
-.practice-section .card h3 {
-    font-size: 1.25rem;
-    line-height: 1.4;
-}
-
-.practice-section .card .paper-authors {
-    font-size: 0.9rem;
 }
 
 .practice-section .feature-icon {

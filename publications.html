@@ -34,25 +34,19 @@
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- Favicon -->
     <!-- TO DO: Make favicon and add images-->
+     <!--
     <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    -->
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-        </script>
     <!-- Bootstrap JavaScript -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
         </script>
-    <!-- Masonry -->
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-
-    <!-- imagesLoaded -->
-    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
 
     <title>Publications | My Primary School is at the Museum (MPSM)</title>
 </head>
@@ -2004,43 +1998,8 @@
 
     </footer>
 
-    <script>
-        document.getElementById("copyright-year").textContent =
-            new Date().getFullYear();
-
-
-        document.addEventListener("DOMContentLoaded", function () {
-            const currentPage = window.location.pathname.split("/").pop() || "index.html";
-
-            document.querySelectorAll(".navbar-nav .nav-link").forEach(function (link) {
-                const linkPage = link.getAttribute("href").split("/").pop();
-
-                if (linkPage === currentPage) {
-                    link.classList.add("active");
-                    link.setAttribute("aria-current", "page");
-                }
-            });
-        });
-
-        document.addEventListener("DOMContentLoaded", function () {
-            const currentPage = window.location.pathname.split("/").pop() || "index.html";
-
-            document.querySelectorAll(".footer-links a").forEach(function (link) {
-                const linkPage = link.getAttribute("href").split("/").pop();
-
-                if (linkPage === currentPage) {
-                    link.classList.add("active");
-                    link.setAttribute("aria-current", "page");
-                }
-            });
-        });
-
-    </script>
-
-    <script>
-        document.getElementById("copyright-year").textContent =
-            new Date().getFullYear();
-    </script>
+    <!-- Custom JavaScript -->
+    <script src="assets/js/main.js"></script>
 
 </body>
 
